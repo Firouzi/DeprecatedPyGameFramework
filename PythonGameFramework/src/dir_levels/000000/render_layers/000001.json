@@ -1,0 +1,14 @@
+{
+"layerType" : "panorama",
+"id" : 1,
+"panorama_id" : 1,
+"name" : "level 1 panorama 1",
+"isNeedsSorting" : false,
+"isAlpha" : true,
+"visibleSections" : [[0,7200, 0, 720],[720,6480, 6480, 7200],[0, 720, 720, 7200],[6480, 7200, 720, 7200]],
+"sizePx" : [3000,1200],
+"fps" : 3,
+"scrollSpeed" : [1,4,1,21],
+"isMotion" : [true,true],
+"motion_pps" : [80,300]
+}

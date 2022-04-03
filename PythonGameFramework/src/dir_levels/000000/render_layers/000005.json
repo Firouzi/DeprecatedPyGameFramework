@@ -1,0 +1,14 @@
+{
+"layerType" : "panorama",
+"id" : 5,
+"panorama_id" : 2,
+"name" : "level 1 foreground",
+"isNeedsSorting" : false,
+"isAlpha" : true,
+"visibleSections" : [[0,7200, 0, 1100],[720,6480, 6100, 7200],[0, 720, 1100, 7200],[6480, 7200, 1100, 7200]],
+"sizePx" : [1800,1000],
+"fps" : 5,
+"scrollSpeed" : [1,28,1,126],
+"isMotion" : [true,true],
+"motion_pps" : [85,200]
+}

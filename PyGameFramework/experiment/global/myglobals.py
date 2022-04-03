@@ -1,0 +1,3 @@
+MYGLOBE1 = "astring"
+MYGLOBE2 = 235
+MYGLOBE3 = 22.4

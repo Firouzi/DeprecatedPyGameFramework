@@ -1,0 +1,16 @@
+2019-03-03 12:08:39.484000 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:08:39.491007 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:09:56.856549 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:09:56.862568 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:10:21.888423 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:10:21.893441 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:12:14.447577 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:12:14.453582 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:13:25.688212 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:13:25.695205 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:13:45.438759 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:13:45.444764 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 12:13:54.215593 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 12:13:54.221615 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found
+2019-03-03 16:41:37.833505 tried to reload [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\ERROR.wav], but this already exists
+2019-03-03 16:41:37.837515 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_soundeffects\click.wav] not found

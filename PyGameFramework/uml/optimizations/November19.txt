@@ -1,0 +1,110 @@
+profile_500_16ms_20191030.txt
+	2468 render loops in 168s, ~15Fps
+	This is with spawning 500 entities using the "addhammer()" debug methof
+	This will be the basis for testing the optimization effort
+
+Data Locality
+Avoid Cache misses by having data in hot code in contigues memory.
+(This is not truly possible with Python, but setup the structure of the framework such that when porting to C++, it will be easy to incorporate this.)
+	"Object Pool" design patten can help with this
+
+Examples:
+Entity Components should be in an array, with a pointer to that Array.
+Tiles in a tilemap should be stored in a contigues array
+
+Problems:
+1. If we store behavior/sprite/etc components seperately, can we avoid checking all behavior components if we know many of them are offscreen?
+2.  Mixed render layers:  Better to have multiple arrays of elements which move and elements which don't, or to sort all into one array?
+3. Right now we have pointers passed to the scene layer.  Do we need to actually store the renderables in 2 places, or can their be one location?  Perhaps we store the renderables in the scene layer, and have the component manager get a pointer to the arrya to upday?  Do we need the component manager for sprites and tiles at all, seperate from the scene layer?
+
+Branch Prediction:
+If we need to check a flag everytime in a loop (EG is visible), and that flag tends to change often, we will have many prediciton misses 
+
+Problems:
+If we don't want to check an "is_active" type of flag for components, than the list needs to remain sorted by active (which is better for performance?)
+
+Dirty Flag:
+Only update things that have changed when you need to
+
+Examples:
+Calculate coordinates, can we see if a change is necessary?  Perhaps we can seperate the peices of the calculation and only modify based on what changed (ie everything except camera has stayed the same, so just add a camera offset and be done)
+Update Sprite - If the behavior changes we MIGHT need to change the sprite, but we should check to see if the new behavior is actually the same sprite
+In Physics, don't need to integrate a particle that is not moving
+
+Problems:
+Need a way to set the flag(s) anytime something changes
+May need to query other components of an entity to find out if dirty
+
+Spatial Partitioning
+
+
+
+
+Misc:
+Do we need a seperate timer for all scene objects?
+	Would animations get out or sync if we allow each to be independant?
+		Do we want a third classification: tiles that can animate independant of the level timer?
+	If we have a timer for an entire atlas, we can just update the timer once per loop
+	We would still need to seperately calculate the frame for each tile
+	
+	
+
+
+
+QUESTIONS
+Data locality VS spatial partitioning.  If we save each component as it's own array, but then we want to sort by spatial location, we would have to keep sorting all of the component arrays.
+Dirty Flag vs Branch Prediction - If we have to check a flag each component, we hurt on branch prediction.  If we don't want to check the flag, we have to sort components by active vs inactive
+
+
+
+Changes:
+Update Loop
+numb_updates counted in the update loop.  This number is passed to the render loop (along with lag) which will allow those animation timers to be incremented correctly
+
+Render more specifically to the type of thing rendered
+	using a pattern here is just preventing chances to be more optimal 
+
+Add in is_alpha to tilemap (Atlas actually) and panorama layers.  If not alpha, then we don't need to load as such which is more efficient
+(Sprites might as well always be alpha)
+	
+Tiles:
+1. Animation Timer is stored in the Atlas
+	Only 1 Animation timer update every render loop
+	Animated Tile data, which is unique for each animated tile in an atlas, is updated for atlas_coordinates and frame date.
+		We should only update this for animated tiles USED in a scene.  This means that after all tiles are loaded, we should only utelize and update animated tile data's for tiles which exist in the scene.
+		When we get the atlas coordinates of a tile, it's either hard data or else for animated tile we will need to reference the animated tile data to get current atlas coordinates
+	
+	Tile Instance Data should store the INDEX of it's atlas, not a link to it's image.  When rendering tiles, we will load all of the atlases once in an array.  We only need to ask a tile which atlas index to lookup.
+		Further optimization is to only allow 1 Array per layer, but since TILED doesn't have this restriction it would be nice to not have this restriction in the game framework
+	Tile Instance Data does not need: (The smaller we keep these types of objects, the better memory saving and potential improved use of CACHE) 
+		_tile_size_px - this is fixed for a scene (store it in the atlas)
+	
+	We don't need to "Calculate Coordinates" on a tile, can just add the camera offset in the render loop
+	
+	In the Scene Layer, store tiles in a Grid.  The grid will be a 2d array of arrays, each array being tiles.  When render loop happens, get a an array of array of tiles, and render them in order.
+	Since the render order of these tiles is static, the algorithim is simple and relatively benign.  All we need is the camera position and we know which list(s) of tiles we need to iterate through
+		Can test different grid cell sizesto see which is best for performance
+		COuld do a binary tree or a quad tree, but the assumption is that we wouldn't see much gain because non sorted tile layers are likely to have a fairly constant size
+		Possibly we could store tiles in arryas by their atlas, because it may be more efficient to stay with the images from the same atlas
+		
+Panorama:
+	Good For Now
+	
+
+Mixed 
+	Working... how do we sort and orgnaize the sprites in a mixed layer?  Assuming we want static elements in their own list.  How do we only update() active entities and on screen entities without a lot of Ptr referencing?
+		Cache optimization vs. branch prediciton optimization vs sorting/rendering/data structure seem to conflict
+	Boundary crossing sprites:
+		Can we 'split' them, adding another renderable to the cell in which they cross into, but which designates where the sprite is cut off at horizontally?
+			The trickiest part will be to 'kill the mirrored renderable'.  If we use a link list data structure, this may actually be fairly simple.
+		
+
+
+		
+EachComponent System (physics, behavior, AI) will maintain 2 arrays - active components and inactive components.
+The entity manager will send a signal out to the component systems when it deactivates or activates an entity so they can move the component accoardingly.
+			When updating, can go through a contiguous block of data, without checking any flags.
+			
+The scene layer will look through the components in it's visible cells.  There could also be another boundary which is outside of the camera that makes entities active (we may want them to be active and acting a little before they are on screen).  It will activate and deactivate entites based on the active cells changing, or an entity moving in or out of an active cell.  
+
+Additionally, particle system can use dirty flags for it's particles (if it's not in motion and has no force applied, nothing will change)

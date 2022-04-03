@@ -1,0 +1,7 @@
+2018-02-18 17:21:42.855979 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:43:25.966038 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:43:28.964764 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:45:02.012591 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:45:57.599644 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:47:11.593610 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found
+2018-02-18 17:48:18.617812 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found

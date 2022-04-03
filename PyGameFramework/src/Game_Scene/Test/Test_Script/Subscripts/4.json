@@ -1,0 +1,11 @@
+[
+"set_random_entity", "entity_always_active", "set_random_entity", "entity_always_active",
+"set_random_entity", "entity_always_active", "set_random_entity", "entity_always_active",
+"set_random_entity", "entity_not_always_active", "set_random_entity", "entity_not_always_active",
+"set_random_entity", "entity_not_always_active", "set_random_entity", "entity_not_always_active",
+"set_random_entity", "sprite_visible", "set_random_entity", "sprite_visible",
+"set_random_entity", "sprite_visible", "set_random_entity", "sprite_visible",
+"set_random_entity", "sprite_invisible", "set_random_entity", "sprite_invisible",
+"set_random_entity", "sprite_invisible", "set_random_entity", "sprite_invisible",
+"update"
+]

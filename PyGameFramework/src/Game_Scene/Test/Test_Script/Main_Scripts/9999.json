@@ -1,0 +1,22 @@
+[
+  "add_new_scene",
+  "add_new_scene",
+  "add_random_layer",
+  "add_random_layer",
+  "add_random_layer",
+  "add_random_layer",
+  "create_camera",
+  "create_camera",
+  "attach_camera",
+  "attach_camera",
+  "activate_random_scene",
+  "activate_random_scene",
+
+  [26,[125]], [25, [0]],
+
+  [26,[90000]], [25, [20]],
+
+  "reset_engine",
+  "start_new_script_sequence",
+  [15, [9999]]
+]

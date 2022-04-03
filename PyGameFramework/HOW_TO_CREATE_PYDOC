@@ -1,0 +1,2 @@
+from console use command:
+pdoc --html <directory to source code>

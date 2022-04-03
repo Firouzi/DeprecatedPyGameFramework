@@ -1,0 +1,2528 @@
+C:\Users\Robert\AppData\Local\Programs\Python\Python36-32\python.exe C:/Users/Robert/Repos/GameDev/PyGameFramework/src/Game_Scene/Test/Test_System/Game_engine_testing_system.py
+scene_layer_grid test start
+***WARNING*** Some tests are turned OFF *****
+***WARNING*** Some tests are turned OFF *****
+Archiving saved script: 07_29_2020__22_37_37_seq0
+1: LOAD_SCRIPT
+2: SET_WORLD_SIZE
+3: SET_SCREEN_SIZE
+4: SET_CELL_SIZE
+5: SET_HYSTERESIS
+6: SET_TILE_SIZE
+7: RESET_ENGINE
+8: ADD_SCENE
+9: ADD_SCENE
+10: ADD_LAYER
+Add Scene Layer:  2 27 1
+11: ADD_LAYER
+Add Scene Layer:  1 1 1
+12: ADD_LAYER
+Add Scene Layer:  1 32 1
+13: ADD_LAYER
+Add Scene Layer:  2 35 1
+14: CREATE_CAMERA
+15: CREATE_CAMERA
+16: ATTACH_CAMERA
+17: ATTACH_CAMERA
+18: ACTIVATE_SCENE
+activate scene:  2
+19: ACTIVATE_SCENE
+activate scene:  1
+20: INSERT_SPRITE
+Insert sprite:  2 27 [1528, 191, 0] 0 False True True True True True
+New entity id: 101
+21: INSERT_SPRITE
+Insert sprite:  1 1 [648, 217, 0] 0 False True True True False False
+New entity id: 102
+22: INSERT_SPRITE
+Insert sprite:  2 27 [-1, 1396, 0] 0 True True True True True True
+New entity id: 103
+23: INSERT_SPRITE
+Insert sprite:  2 35 [376, 672, 0] 0 True False True False False False
+New entity id: 104
+24: INSERT_SPRITE
+Insert sprite:  1 32 [1212, 1392, 0] 0 False False False False True True
+New entity id: 105
+25: INSERT_SPRITE
+Insert sprite:  2 35 [115, 2090, 0] 0 True True False False False True
+New entity id: 106
+26: INSERT_SPRITE
+Insert sprite:  1 1 [939, 2050, 0] 0 True True True False False False
+New entity id: 107
+27: INSERT_SPRITE
+Insert sprite:  1 1 [657, 681, 0] 0 False True False True False True
+New entity id: 108
+28: INSERT_SPRITE
+Insert sprite:  1 1 [1311, 1666, 0] 0 True True True False True False
+New entity id: 109
+29: INSERT_SPRITE
+Insert sprite:  1 32 [781, 1855, 0] 0 True False False True False False
+New entity id: 110
+30: INSERT_SPRITE
+Insert sprite:  1 32 [719, 1403, 0] 0 False False True False False False
+New entity id: 111
+31: INSERT_SPRITE
+Insert sprite:  1 1 [225, 255, 0] 0 False False True False True True
+New entity id: 112
+32: INSERT_SPRITE
+Insert sprite:  2 27 [557, 57, 0] 0 True True True False True False
+New entity id: 113
+33: INSERT_SPRITE
+Insert sprite:  2 27 [1330, -10, 0] 0 True True True True False True
+New entity id: 114
+34: INSERT_SPRITE
+Insert sprite:  1 1 [1185, 959, 0] 0 False False False True True True
+New entity id: 115
+35: INSERT_SPRITE
+Insert sprite:  2 35 [38, 2235, 0] 0 False True True False True True
+New entity id: 116
+36: INSERT_SPRITE
+Insert sprite:  1 1 [247, 1433, 0] 0 True False False False False False
+New entity id: 117
+37: INSERT_SPRITE
+Insert sprite:  2 27 [482, 2210, 0] 0 False False False False True False
+New entity id: 118
+38: INSERT_SPRITE
+Insert sprite:  2 35 [118, 2495, 37] 0 True False False True True False
+New entity id: 119
+39: INSERT_SPRITE
+Insert sprite:  2 35 [907, 1735, 0] 0 True False False False False True
+New entity id: 120
+40: INSERT_SPRITE
+Insert sprite:  1 1 [1508, 2328, 0] 0 False False False True False True
+New entity id: 121
+41: INSERT_SPRITE
+Insert sprite:  1 1 [584, 2505, 0] 0 True False True True False True
+New entity id: 122
+42: INSERT_SPRITE
+Insert sprite:  1 32 [1476, 1192, 0] 0 False True True False False False
+New entity id: 123
+43: INSERT_SPRITE
+Insert sprite:  1 1 [720, 1909, 0] 0 True True False True True False
+New entity id: 124
+44: INSERT_SPRITE
+Insert sprite:  1 32 [984, 1923, 0] 0 True True False False True True
+New entity id: 125
+45: INSERT_SPRITE
+Insert sprite:  2 27 [1050, 1634, 0] 0 True True True True True True
+New entity id: 126
+46: INSERT_SPRITE
+Insert sprite:  2 35 [86, 71, 0] 0 True True True False False True
+New entity id: 127
+47: INSERT_SPRITE
+Insert sprite:  2 35 [1217, 1295, 38] 0 False True False True False True
+New entity id: 128
+48: INSERT_SPRITE
+Insert sprite:  1 32 [215, 1326, 0] 0 False True False True True False
+New entity id: 129
+49: INSERT_SPRITE
+Insert sprite:  2 27 [290, 1327, 90] 0 True False True True False True
+New entity id: 130
+50: INSERT_SPRITE
+Insert sprite:  1 32 [575, 1408, 0] 0 True True True False False False
+New entity id: 131
+51: INSERT_SPRITE
+Insert sprite:  1 1 [909, 637, 69] 0 True False True False False False
+New entity id: 132
+52: INSERT_SPRITE
+Insert sprite:  1 1 [532, 1905, 0] 0 True True True False True False
+New entity id: 133
+53: INSERT_SPRITE
+Insert sprite:  2 35 [876, 97, 0] 0 True True True False False True
+New entity id: 134
+54: INSERT_SPRITE
+Insert sprite:  1 32 [91, 424, 0] 0 False True True False False False
+New entity id: 135
+55: INSERT_SPRITE
+Insert sprite:  2 35 [1026, 1496, 0] 0 True False True True True False
+New entity id: 136
+56: INSERT_SPRITE
+Insert sprite:  2 27 [251, 804, 0] 0 False False False False True True
+New entity id: 137
+57: INSERT_SPRITE
+Insert sprite:  2 35 [487, 480, 0] 0 True True True False True False
+New entity id: 138
+58: INSERT_SPRITE
+Insert sprite:  2 35 [575, 1721, 0] 0 False True False False True True
+New entity id: 139
+59: INSERT_SPRITE
+Insert sprite:  1 1 [1272, 2406, 0] 0 False True False True True True
+New entity id: 140
+60: INSERT_SPRITE
+Insert sprite:  2 27 [1253, 2452, 0] 0 True True True False False True
+New entity id: 141
+61: INSERT_SPRITE
+Insert sprite:  1 32 [1131, 267, 38] 0 False True False False False True
+New entity id: 142
+62: INSERT_SPRITE
+Insert sprite:  2 27 [424, 1089, 0] 0 False True False False False False
+New entity id: 143
+63: INSERT_SPRITE
+Insert sprite:  1 1 [901, 2330, 9] 0 True True True True True False
+New entity id: 144
+64: INSERT_SPRITE
+Insert sprite:  2 35 [1225, 2174, 0] 0 True True True False False True
+New entity id: 145
+65: INSERT_SPRITE
+Insert sprite:  2 35 [974, 904, 0] 0 False True False False False True
+New entity id: 146
+66: INSERT_SPRITE
+Insert sprite:  1 1 [977, 367, 0] 0 True False True True False False
+New entity id: 147
+67: INSERT_SPRITE
+Insert sprite:  2 27 [1008, 2100, 0] 0 False True True True False False
+New entity id: 148
+68: INSERT_SPRITE
+Insert sprite:  2 27 [1170, 540, 0] 0 True True True False False False
+New entity id: 149
+69: INSERT_SPRITE
+Insert sprite:  2 35 [1507, 2244, 0] 0 False True False False True True
+New entity id: 150
+70: INSERT_SPRITE
+Insert sprite:  1 1 [1378, 1171, 0] 0 True False True False True False
+New entity id: 151
+71: INSERT_SPRITE
+Insert sprite:  2 35 [1166, 1212, 0] 0 True True True False True False
+New entity id: 152
+72: INSERT_SPRITE
+Insert sprite:  1 1 [103, 739, 0] 0 False False False True True True
+New entity id: 153
+73: INSERT_SPRITE
+Insert sprite:  1 32 [238, 230, 0] 0 False False True True False True
+New entity id: 154
+74: INSERT_SPRITE
+Insert sprite:  1 1 [567, 1284, 0] 0 False True True True True False
+New entity id: 155
+75: INSERT_SPRITE
+Insert sprite:  2 27 [234, 1281, 0] 0 False False True True False False
+New entity id: 156
+76: INSERT_SPRITE
+Insert sprite:  1 1 [1124, 1716, 0] 0 False True True True False True
+New entity id: 157
+77: INSERT_SPRITE
+Insert sprite:  2 35 [1327, 113, 0] 0 True True True True True False
+New entity id: 158
+78: INSERT_SPRITE
+Insert sprite:  1 32 [122, 2545, 13] 0 True True True False True False
+New entity id: 159
+79: INSERT_SPRITE
+Insert sprite:  2 35 [934, 1024, 0] 0 False False False True False True
+New entity id: 160
+80: INSERT_SPRITE
+Insert sprite:  1 1 [1242, 2099, 0] 0 False True False False True False
+New entity id: 161
+81: INSERT_SPRITE
+Insert sprite:  2 27 [676, -10, 0] 0 False True False False True True
+New entity id: 162
+82: INSERT_SPRITE
+Insert sprite:  1 32 [1093, 1097, 0] 0 False True True True False True
+New entity id: 163
+83: INSERT_SPRITE
+Insert sprite:  2 35 [1015, 956, 0] 0 True False True False True False
+New entity id: 164
+84: INSERT_SPRITE
+Insert sprite:  1 32 [524, 1311, 0] 0 True True False False False False
+New entity id: 165
+85: INSERT_SPRITE
+Insert sprite:  1 1 [1604, 1348, 0] 0 False True True False True True
+New entity id: 166
+86: INSERT_SPRITE
+Insert sprite:  2 27 [1028, 1274, 0] 0 True False False True True True
+New entity id: 167
+87: INSERT_SPRITE
+Insert sprite:  2 35 [38, 1782, 37] 0 True True False False False True
+New entity id: 168
+88: INSERT_SPRITE
+Insert sprite:  1 1 [1218, 1214, 13] 0 False False False False False False
+New entity id: 169
+89: INSERT_SPRITE
+Insert sprite:  2 27 [936, 2213, 0] 0 False True False False True False
+New entity id: 170
+90: INSERT_SPRITE
+Insert sprite:  1 32 [956, 1579, 0] 0 False True False False True True
+New entity id: 171
+91: INSERT_SPRITE
+Insert sprite:  1 32 [70, 2043, 0] 0 True False False False True True
+New entity id: 172
+92: INSERT_SPRITE
+Insert sprite:  2 35 [684, 1722, 0] 0 False False False False False True
+New entity id: 173
+93: INSERT_SPRITE
+Insert sprite:  1 1 [1152, 1162, 0] 0 True True True False False True
+New entity id: 174
+94: INSERT_SPRITE
+Insert sprite:  2 27 [925, 758, 0] 0 False False False True False True
+New entity id: 175
+95: INSERT_SPRITE
+Insert sprite:  2 35 [538, 2198, 0] 0 True False True True False False
+New entity id: 176
+96: INSERT_SPRITE
+Insert sprite:  2 27 [1301, 2051, 0] 0 True True True True False True
+New entity id: 177
+97: INSERT_SPRITE
+Insert sprite:  1 1 [1303, 278, 0] 0 False True True False False False
+New entity id: 178
+98: INSERT_SPRITE
+Insert sprite:  1 32 [808, 2549, 0] 0 False True True False False False
+New entity id: 179
+99: INSERT_SPRITE
+Insert sprite:  2 35 [972, 1088, 92] 0 False True False False True False
+New entity id: 180
+100: INSERT_SPRITE
+Insert sprite:  2 35 [344, 1572, 0] 0 False False False False False True
+New entity id: 181
+101: INSERT_SPRITE
+Insert sprite:  2 27 [535, 923, -8] 0 True True False True True True
+New entity id: 182
+102: INSERT_SPRITE
+Insert sprite:  2 27 [1484, 1416, 0] 0 True False False False False False
+New entity id: 183
+103: INSERT_SPRITE
+Insert sprite:  1 1 [1200, 1442, 0] 0 False True True False False True
+New entity id: 184
+104: INSERT_SPRITE
+Insert sprite:  2 35 [942, 2159, 0] 0 True False True False True True
+New entity id: 185
+105: INSERT_SPRITE
+Insert sprite:  1 32 [887, 1436, 0] 0 False False True False False True
+New entity id: 186
+106: INSERT_SPRITE
+Insert sprite:  2 27 [1580, 1423, 0] 0 False False True True True True
+New entity id: 187
+107: INSERT_SPRITE
+Insert sprite:  2 35 [980, 2194, 0] 0 False False False True False True
+New entity id: 188
+108: INSERT_SPRITE
+Insert sprite:  2 27 [1288, 166, 0] 0 False False False True False True
+New entity id: 189
+109: INSERT_SPRITE
+Insert sprite:  2 27 [557, 1189, 4] 0 False True False True False False
+New entity id: 190
+110: INSERT_SPRITE
+Insert sprite:  1 1 [1595, 2324, 0] 0 True False False False False False
+New entity id: 191
+111: INSERT_SPRITE
+Insert sprite:  2 35 [453, 1073, 0] 0 True True True True False True
+New entity id: 192
+112: INSERT_SPRITE
+Insert sprite:  2 27 [277, 1551, 64] 0 False True True True True True
+New entity id: 193
+113: INSERT_SPRITE
+Insert sprite:  1 1 [1361, 491, 0] 0 False False False False False True
+New entity id: 194
+114: INSERT_SPRITE
+Insert sprite:  2 35 [979, 218, 0] 0 False True False True True True
+New entity id: 195
+115: INSERT_SPRITE
+Insert sprite:  1 1 [735, 1641, 0] 0 True True True False True False
+New entity id: 196
+116: INSERT_SPRITE
+Insert sprite:  1 32 [1521, 2162, 0] 0 False False False False False True
+New entity id: 197
+117: INSERT_SPRITE
+Insert sprite:  2 35 [231, 970, 0] 0 False True True False True True
+New entity id: 198
+118: INSERT_SPRITE
+Insert sprite:  1 32 [1380, 2466, -3] 0 True False False True True True
+New entity id: 199
+119: INSERT_SPRITE
+Insert sprite:  2 35 [585, 2268, 0] 0 True True True True True False
+New entity id: 200
+120: INSERT_SPRITE
+Insert sprite:  2 35 [329, 1504, 0] 0 False False True False True False
+New entity id: 201
+121: INSERT_SPRITE
+Insert sprite:  1 32 [1595, 2525, 0] 0 False False False True True False
+New entity id: 202
+122: INSERT_SPRITE
+Insert sprite:  1 32 [1164, 565, 0] 0 True False True False True True
+New entity id: 203
+123: INSERT_SPRITE
+Insert sprite:  2 35 [956, 604, 0] 0 False True False False False False
+New entity id: 204
+124: INSERT_SPRITE
+Insert sprite:  1 32 [1375, 1847, 0] 0 False True False True True False
+New entity id: 205
+125: INSERT_SPRITE
+Insert sprite:  1 32 [34, 25, 99] 0 False False True True True False
+New entity id: 206
+126: INSERT_SPRITE
+Insert sprite:  1 1 [1311, 2050, 0] 0 True True True False True False
+New entity id: 207
+127: INSERT_SPRITE
+Insert sprite:  2 35 [-3, 1855, 0] 0 False True False True False True
+New entity id: 208
+128: INSERT_SPRITE
+Insert sprite:  1 32 [1394, 2485, 0] 0 False True True True False True
+New entity id: 209
+129: INSERT_SPRITE
+Insert sprite:  2 35 [1237, 364, 0] 0 False False True False True False
+New entity id: 210
+130: INSERT_SPRITE
+Insert sprite:  1 32 [190, 1949, 0] 0 True True False True False True
+New entity id: 211
+131: INSERT_SPRITE
+Insert sprite:  2 35 [1047, 1430, 0] 0 True False False False True False
+New entity id: 212
+132: INSERT_SPRITE
+Insert sprite:  1 32 [1343, 2104, 0] 0 False False True True True True
+New entity id: 213
+133: INSERT_SPRITE
+Insert sprite:  1 1 [873, 1404, 0] 0 True True True True True False
+New entity id: 214
+134: INSERT_SPRITE
+Insert sprite:  1 32 [1478, 2478, 0] 0 False True True True True False
+New entity id: 215
+135: INSERT_SPRITE
+Insert sprite:  2 35 [1110, 1728, 0] 0 False False True True False True
+New entity id: 216
+136: INSERT_SPRITE
+Insert sprite:  1 32 [1069, 1308, 0] 0 False True False True False True
+New entity id: 217
+137: INSERT_SPRITE
+Insert sprite:  2 27 [1161, 2157, 0] 0 False True False True False False
+New entity id: 218
+138: INSERT_SPRITE
+Insert sprite:  1 1 [646, 1845, 72] 0 False False False False False True
+New entity id: 219
+139: INSERT_SPRITE
+Insert sprite:  2 35 [1045, 1154, 0] 0 False True True False False True
+New entity id: 220
+140: INSERT_SPRITE
+Insert sprite:  1 1 [976, 260, 0] 0 False True True True False False
+New entity id: 221
+141: INSERT_SPRITE
+Insert sprite:  1 1 [477, 637, 0] 0 False False True True False False
+New entity id: 222
+142: INSERT_SPRITE
+Insert sprite:  1 32 [1094, 2169, 0] 0 False True True True True True
+New entity id: 223
+143: INSERT_SPRITE
+Insert sprite:  2 27 [310, 639, 0] 0 True True False False True False
+New entity id: 224
+144: INSERT_SPRITE
+Insert sprite:  2 35 [1440, 2367, 0] 0 True True False True True True
+New entity id: 225
+145: REMOVE_LAYER
+Remove Scene Layer:  2 27
+146: INSERT_SPRITE
+Insert sprite:  1 1 [482, 1666, 0] 0 False False True False True False
+New entity id: 226
+147: INSERT_SPRITE
+Insert sprite:  1 1 [1149, 108, 36] 0 True False True False False True
+New entity id: 227
+148: REMOVE_ENTITY_DEPENDANT
+149: INSERT_SPRITE
+Insert sprite:  1 1 [1457, 1076, 0] 0 True True True False False False
+New entity id: 228
+150: REMOVE_SPRITE
+Remove sprite:  115
+151: DEACTIVATE_ENTITY_AI
+152: PAN_SPRITE
+Entity id: 202 Pan: [-2, 0, 0]
+153: INSERT_SPRITE
+Insert sprite:  2 35 [287, 1969, 0] 0 True False False False True True
+New entity id: 229
+154: INSERT_SPRITE
+Insert sprite:  1 1 [792, 519, 0] 0 False False True False False True
+New entity id: 230
+155: ACTIVATE_ENTITY_BEHAVIOR
+156: REMOVE_ENTITY_DEPENDANT
+157: PAN_SPRITE
+Entity id: 108 Pan: [0, 23, 0]
+158: ADD_ENTITY_DEPENDANT
+add to entity: 147, dependant: 153
+159: REMOVE_ENTITY_DEPENDANT
+remove from entity: 153, dependant: 147
+160: ADD_ENTITY_DEPENDANT
+add to entity: 225, dependant: 160
+161: INSERT_SPRITE
+Insert sprite:  2 35 [350, 78, 0] 0 True True True False True True
+New entity id: 231
+162: MOVE_SPRITE
+Entity id: 145 Move: [1244, 347, -58]
+163: INSERT_SPRITE
+Insert sprite:  2 35 [960, 2477, 0] 0 True True True True False False
+New entity id: 232
+164: REMOVE_SPRITE
+Remove sprite:  206
+165: FLIP_ANIMATION
+Entity id: 186 flip animation
+166: PAN_SPRITE
+Entity id: 185 Pan: [0, 30, 0]
+167: PAN_SPRITE
+Entity id: 165 Pan: [25, -16, 2]
+168: ADD_ENTITY_DEPENDANT
+add to entity: 215, dependant: 159
+169: FLIP_ANIMATION
+Entity id: 161 flip animation
+170: FLIP_ANIMATION
+Entity id: 180 flip animation
+171: INSERT_SPRITE
+Insert sprite:  2 35 [1416, 2477, 0] 0 False False True False False True
+New entity id: 233
+172: REMOVE_ENTITY_DEPENDANT
+remove from entity: 160, dependant: 225
+173: REMOVE_SPRITE
+Remove sprite:  104
+174: PAN_SPRITE
+Entity id: 181 Pan: [-1, 0, 0]
+175: MOVE_SPRITE
+Entity id: 203 Move: [114, 2053, 49]
+176: REMOVE_SPRITE
+Remove sprite:  102
+177: SET_BEHAVIOR_STATE
+Entity id: 212 Behavior state: 1
+178: FLIP_ANIMATION
+Entity id: 185 flip animation
+179: INSERT_SPRITE
+Insert sprite:  2 35 [1246, 427, -2] 0 False True False True False True
+New entity id: 234
+180: INSERT_SPRITE
+Insert sprite:  2 35 [1490, 2310, 0] 0 True False True True False False
+New entity id: 235
+181: UPDATE
+*** Update 1 ***
+Running test: _testEntityIdVerification_
+Running test: _testVerifyActiveEntities_
+Running test: _testSceneLayerReferences_
+Running test: _testEntityByLayerId_
+Running test: _testCurrentLayerIds_
+Running test: _testOffScreenActives_
+Running test: _testEntityInGridInDict_
+Running test: _testCloneParentRelationship_
+Running test: _testMasterCellsActiveState_
+Running test: _testCellBordersSizes_
+Running test: _testAllEntitiesInGridUnique_
+Running test: _testCellMetaDataMatchesMaster_
+Running test: _testMasterCellsInactiveState_
+Running test: _testCellsAreSorted_
+Running test: _testLinkedListsAreConsistent_
+Running test: _testSpritesStayInBorders_
+Running test: _testInvisibleSpritesLists_
+Running test: _testSceneCellReferences_
+Running test: _testSpriteRenderCoordinates_
+Running test: _testSpriteBehaviorState_
+Running test: _testOffscreenActiveNetwork_
+Running test: _testSpritesCreateNeededClones_
+Running test: _testParentCloneRefConsistent_
+Running test: _testWorldPositionGroundPosition_
+Running test: _testDependantsInSameLayer_
+Running test: _testActiveInactiveAcrossComponents_
+Running test: _testEntityStatusIdenticalAcrossDependants_
+Running test: _testEntityDependanyConsistent_
+Running test: _testSpriteStateEntityStatusMatch_
+Running test: _testEntityStatusSpriteDependantEqual_
+Running test: _testEntityManagerCorrectScene_
+Running test: _testOnscreenEntityIds_
+Running test: _testSceneReferencesMatch_
+Running test: _testEntityInCorrectSceneManagers_
+Running test: _testEntitySceneMap_
+Running test: _testCameraWithinWorldBoundary_
+182: INSERT_SPRITE
+Insert sprite:  1 32 [1577, 1518, 37] 0 False False False True True True
+New entity id: 236
+183: ADD_ENTITY_DEPENDANT
+add to entity: 201, dependant: 173
+184: INSERT_SPRITE
+Insert sprite:  2 35 [1157, 2078, 0] 0 True False True True False False
+New entity id: 237
+185: PAN_SPRITE
+Entity id: 237 Pan: [0, -5, 0]
+186: FLIP_ANIMATION
+Entity id: 213 flip animation
+187: FLIP_ANIMATION
+Entity id: 112 flip animation
+188: FLIP_ANIMATION
+Entity id: 172 flip animation
+189: ACTIVATE_ENTITY
+190: REMOVE_ENTITY_DEPENDANT
+remove from entity: 173, dependant: 201
+191: INSERT_SPRITE
+Insert sprite:  2 35 [20, 1750, 0] 0 False False False False True True
+New entity id: 238
+192: REMOVE_ENTITY_DEPENDANT
+remove from entity: 159, dependant: 215
+193: REMOVE_SPRITE
+Remove sprite:  171
+194: INSERT_SPRITE
+Insert sprite:  1 32 [990, 2241, 0] 0 False False True False False True
+New entity id: 239
+195: INSERT_SPRITE
+Insert sprite:  1 1 [1314, 67, 84] 0 True True False False True True
+New entity id: 240
+196: INSERT_SPRITE
+Insert sprite:  1 1 [1082, 625, 0] 0 True True False False False True
+New entity id: 241
+197: INSERT_SPRITE
+Insert sprite:  1 1 [1579, 94, 0] 0 False True False True True True
+New entity id: 242
+198: REMOVE_ENTITY_DEPENDANT
+199: FLIP_ANIMATION
+Entity id: 154 flip animation
+200: INSERT_SPRITE
+Insert sprite:  2 35 [640, 155, 0] 0 True True True False False True
+New entity id: 243
+201: PAN_SPRITE
+Entity id: 191 Pan: [0, 0, 0]
+202: PAN_SPRITE
+Entity id: 203 Pan: [0, 0, 0]
+203: INSERT_SPRITE
+Insert sprite:  1 1 [1012, 2166, 0] 0 False True True True True False
+New entity id: 244
+204: INSERT_SPRITE
+Insert sprite:  1 1 [1360, 2014, 0] 0 False True False True False True
+New entity id: 245
+205: PAN_SPRITE
+Entity id: 239 Pan: [0, 0, 1]
+206: MOVE_SPRITE
+Entity id: 145 Move: [454, 1261, -39]
+207: FLIP_ANIMATION
+Entity id: 216 flip animation
+208: REMOVE_ENTITY_DEPENDANT
+209: INSERT_SPRITE
+Insert sprite:  1 1 [70, 1062, 31] 0 False True False True True True
+New entity id: 246
+210: MOVE_SPRITE
+Entity id: 222 Move: [258, 87, -93]
+211: FLIP_ANIMATION
+Entity id: 131 flip animation
+212: MOVE_SPRITE
+Entity id: 109 Move: [448, 1459, -80]
+213: PAN_SPRITE
+Entity id: 234 Pan: [0, 11, 0]
+214: SET_ENTITY_ALWAYS_ACTIVE
+215: REMOVE_SPRITE
+Remove sprite:  226
+216: FLIP_ANIMATION
+Entity id: 230 flip animation
+217: FLIP_ANIMATION
+Entity id: 178 flip animation
+218: INSERT_SPRITE
+Insert sprite:  2 35 [182, 281, 0] 0 True True False True True False
+New entity id: 247
+219: INSERT_SPRITE
+Insert sprite:  2 35 [283, 1935, 0] 0 False False True True False True
+New entity id: 248
+220: INSERT_SPRITE
+Insert sprite:  2 35 [96, 2297, 0] 0 False False True True False False
+New entity id: 249
+221: FLIP_ANIMATION
+Entity id: 233 flip animation
+222: INSERT_SPRITE
+Insert sprite:  1 1 [1368, 30, 0] 0 True True True True False False
+New entity id: 250
+223: MOVE_SPRITE
+Entity id: 232 Move: [581, 1462, 44]
+224: FLIP_ANIMATION
+Entity id: 208 flip animation
+225: FLIP_ANIMATION
+Entity id: 106 flip animation
+226: INSERT_SPRITE
+Insert sprite:  1 1 [486, 2398, 4] 0 False False True True False True
+New entity id: 251
+227: MOVE_SPRITE
+Entity id: 151 Move: [1129, 1962, -57]
+228: MOVE_SPRITE
+Entity id: 121 Move: [379, 2486, -69]
+229: PAN_SPRITE
+Entity id: 236 Pan: [0, 0, 1]
+230: FLIP_ANIMATION
+Entity id: 138 flip animation
+231: UPDATE
+*** Update 2 ***
+Running test: _testEntityIdVerification_
+Running test: _testVerifyActiveEntities_
+Running test: _testSceneLayerReferences_
+Running test: _testEntityByLayerId_
+Running test: _testCurrentLayerIds_
+Running test: _testOffScreenActives_
+Running test: _testEntityInGridInDict_
+Running test: _testCloneParentRelationship_
+Running test: _testMasterCellsActiveState_
+Running test: _testCellBordersSizes_
+Running test: _testAllEntitiesInGridUnique_
+Running test: _testCellMetaDataMatchesMaster_
+Running test: _testMasterCellsInactiveState_
+Running test: _testCellsAreSorted_
+Running test: _testLinkedListsAreConsistent_
+Running test: _testSpritesStayInBorders_
+Running test: _testInvisibleSpritesLists_
+Running test: _testSceneCellReferences_
+Running test: _testSpriteRenderCoordinates_
+Running test: _testSpriteBehaviorState_
+Running test: _testOffscreenActiveNetwork_
+Running test: _testSpritesCreateNeededClones_
+Running test: _testParentCloneRefConsistent_
+Running test: _testWorldPositionGroundPosition_
+Running test: _testDependantsInSameLayer_
+Running test: _testActiveInactiveAcrossComponents_
+Running test: _testEntityStatusIdenticalAcrossDependants_
+Running test: _testEntityDependanyConsistent_
+Running test: _testSpriteStateEntityStatusMatch_
+Running test: _testEntityStatusSpriteDependantEqual_
+Running test: _testEntityManagerCorrectScene_
+Running test: _testOnscreenEntityIds_
+Running test: _testSceneReferencesMatch_
+Running test: _testEntityInCorrectSceneManagers_
+Running test: _testEntitySceneMap_
+Running test: _testCameraWithinWorldBoundary_
+232: REMOVE_ENTITY_DEPENDANT
+233: INSERT_SPRITE
+Insert sprite:  1 32 [965, 1723, 0] 0 True True True False False False
+New entity id: 252
+234: INSERT_SPRITE
+Insert sprite:  1 1 [1159, 2339, 0] 0 False False True True False True
+New entity id: 253
+235: PAN_SPRITE
+Entity id: 253 Pan: [0, 0, 2]
+236: REMOVE_ENTITY_DEPENDANT
+237: INSERT_SPRITE
+Insert sprite:  1 1 [1317, 279, 0] 0 False True False False True True
+New entity id: 254
+238: PAN_SPRITE
+Entity id: 161 Pan: [-27, -16, 2]
+239: REMOVE_SPRITE
+Remove sprite:  238
+240: INSERT_SPRITE
+Insert sprite:  1 32 [419, 251, 0] 0 True False False False False False
+New entity id: 255
+241: FLIP_ANIMATION
+Entity id: 210 flip animation
+242: MOVE_SPRITE
+Entity id: 242 Move: [959, 423, -78]
+243: REMOVE_SPRITE
+Remove sprite:  165
+244: ADD_ENTITY_DEPENDANT
+add to entity: 229, dependant: 160
+245: INSERT_SPRITE
+Insert sprite:  2 35 [791, 1277, 0] 0 True False False False True False
+New entity id: 256
+246: INSERT_SPRITE
+Insert sprite:  2 35 [1103, 1158, 0] 0 False False False False True False
+New entity id: 257
+247: MOVE_SPRITE
+Entity id: 228 Move: [543, 1896, 20]
+248: INSERT_SPRITE
+Insert sprite:  1 1 [544, 2132, 0] 0 False True False True True False
+New entity id: 258
+249: ADD_ENTITY_DEPENDANT
+add to entity: 220, dependant: 188
+250: FLIP_ANIMATION
+Entity id: 195 flip animation
+251: INSERT_SPRITE
+Insert sprite:  1 32 [873, 852, 0] 0 True False False False False False
+New entity id: 259
+252: FLIP_ANIMATION
+Entity id: 110 flip animation
+253: REMOVE_SPRITE
+Remove sprite:  110
+254: MOVE_SPRITE
+Entity id: 244 Move: [1184, 1464, 1]
+255: INSERT_SPRITE
+Insert sprite:  1 32 [645, 2064, 19] 0 True False True True True True
+New entity id: 260
+256: PAN_SPRITE
+Entity id: 212 Pan: [-20, 0, 0]
+257: SET_BEHAVIOR_STATE
+Entity id: 169 Behavior state: 2
+258: ACTIVATE_SCENE
+259: INSERT_SPRITE
+Insert sprite:  1 1 [646, 665, 0] 0 False False True True True False
+New entity id: 261
+260: PAN_SPRITE
+Entity id: 221 Pan: [-21, 0, 0]
+261: ADD_ENTITY_DEPENDANT
+add to entity: 180, dependant: 247
+262: PAN_SPRITE
+Entity id: 122 Pan: [-9, 3, -2]
+263: INSERT_SPRITE
+Insert sprite:  2 35 [1321, 1701, 0] 0 True True True False True True
+New entity id: 262
+264: FLIP_ANIMATION
+Entity id: 178 flip animation
+265: ADD_ENTITY_DEPENDANT
+add to entity: 252, dependant: 209
+266: INSERT_SPRITE
+Insert sprite:  1 1 [905, 1378, 35] 0 False False False True True False
+New entity id: 263
+267: INSERT_SPRITE
+Insert sprite:  1 32 [48, 1146, 0] 0 True True True False False True
+New entity id: 264
+268: ACTIVATE_ENTITY_AI
+269: INSERT_SPRITE
+Insert sprite:  2 35 [705, 738, 0] 0 True True False False False False
+New entity id: 265
+270: PAN_SPRITE
+Entity id: 152 Pan: [0, 0, 1]
+271: ACTIVATE_ENTITY_PHYSICS
+272: INSERT_SPRITE
+Insert sprite:  2 35 [449, 628, 0] 0 True True True False True True
+New entity id: 266
+273: ACTIVATE_ENTITY
+274: PAN_SPRITE
+Entity id: 181 Pan: [-11, 14, 1]
+275: REMOVE_SPRITE
+Remove sprite:  209
+276: INSERT_SPRITE
+Insert sprite:  2 35 [1497, 104, 23] 0 False False True True True True
+New entity id: 267
+277: INSERT_SPRITE
+Insert sprite:  2 35 [111, 103, 0] 0 False True True False True False
+New entity id: 268
+278: INSERT_SPRITE
+Insert sprite:  1 32 [1152, 1445, 0] 0 True False True False True True
+New entity id: 269
+279: PAN_CAMERA
+Pan camera:  2   [0, -4]
+280: SET_BEHAVIOR_STATE
+Entity id: 123 Behavior state: 3
+281: FLIP_ANIMATION
+Entity id: 222 flip animation
+282: SET_BEHAVIOR_STATE
+Entity id: 166 Behavior state: 1
+283: FLIP_ANIMATION
+Entity id: 172 flip animation
+284: INSERT_SPRITE
+Insert sprite:  1 1 [703, 1441, 0] 0 False True False False False True
+New entity id: 270
+285: MOVE_SPRITE
+Entity id: 179 Move: [790, 2212, 56]
+286: ADD_ENTITY_DEPENDANT
+add to entity: 159, dependant: 142
+287: ADD_ENTITY_DEPENDANT
+add to entity: 198, dependant: 173
+288: PAN_SPRITE
+Entity id: 105 Pan: [15, 0, 0]
+289: INSERT_SPRITE
+Insert sprite:  1 32 [545, 2466, -2] 0 True False False True True True
+New entity id: 271
+290: PAN_SPRITE
+Entity id: 139 Pan: [21, -3, 0]
+291: FLIP_ANIMATION
+Entity id: 199 flip animation
+292: FLIP_ANIMATION
+Entity id: 264 flip animation
+293: INSERT_SPRITE
+Insert sprite:  1 32 [1203, 621, 0] 0 True False True False False False
+New entity id: 272
+294: REMOVE_SPRITE
+Remove sprite:  223
+295: INSERT_SPRITE
+Insert sprite:  2 35 [1328, 210, 68] 0 False True False False False True
+New entity id: 273
+296: ADD_ENTITY_DEPENDANT
+add to entity: 231, dependant: 257
+297: FLIP_ANIMATION
+Entity id: 212 flip animation
+298: ADD_ENTITY_DEPENDANT
+add to entity: 220, dependant: 120
+299: PAN_SPRITE
+Entity id: 230 Pan: [0, 20, 0]
+300: MOVE_SPRITE
+Entity id: 200 Move: [1295, 905, 39]
+301: FLIP_ANIMATION
+Entity id: 111 flip animation
+302: SET_ENTITY_ALWAYS_ACTIVE
+303: FLIP_ANIMATION
+Entity id: 129 flip animation
+304: INSERT_SPRITE
+Insert sprite:  2 35 [1219, 1551, 0] 0 False False False False True True
+New entity id: 274
+305: PAN_SPRITE
+Entity id: 205 Pan: [-11, 0, 0]
+306: PAN_SPRITE
+Entity id: 195 Pan: [-8, 0, 0]
+307: REMOVE_SPRITE
+Remove sprite:  157
+308: FLIP_ANIMATION
+Entity id: 140 flip animation
+309: INSERT_SPRITE
+Insert sprite:  2 35 [1315, 795, 0] 0 False False False True True False
+New entity id: 275
+310: INSERT_SPRITE
+Insert sprite:  2 35 [631, 38, 0] 0 True False False False True True
+New entity id: 276
+311: UPDATE
+*** Update 3 ***
+Running test: _testEntityIdVerification_
+Running test: _testVerifyActiveEntities_
+Running test: _testSceneLayerReferences_
+Running test: _testEntityByLayerId_
+Running test: _testCurrentLayerIds_
+Running test: _testOffScreenActives_
+Running test: _testEntityInGridInDict_
+Running test: _testCloneParentRelationship_
+Running test: _testMasterCellsActiveState_
+Running test: _testCellBordersSizes_
+Running test: _testAllEntitiesInGridUnique_
+Running test: _testCellMetaDataMatchesMaster_
+Running test: _testMasterCellsInactiveState_
+Running test: _testCellsAreSorted_
+Running test: _testLinkedListsAreConsistent_
+Running test: _testSpritesStayInBorders_
+Running test: _testInvisibleSpritesLists_
+Running test: _testSceneCellReferences_
+Running test: _testSpriteRenderCoordinates_
+Running test: _testSpriteBehaviorState_
+Running test: _testOffscreenActiveNetwork_
+Running test: _testSpritesCreateNeededClones_
+Running test: _testParentCloneRefConsistent_
+Running test: _testWorldPositionGroundPosition_
+Running test: _testDependantsInSameLayer_
+Running test: _testActiveInactiveAcrossComponents_
+Running test: _testEntityStatusIdenticalAcrossDependants_
+Running test: _testEntityDependanyConsistent_
+Running test: _testSpriteStateEntityStatusMatch_
+Running test: _testEntityStatusSpriteDependantEqual_
+Running test: _testEntityManagerCorrectScene_
+Running test: _testOnscreenEntityIds_
+Running test: _testSceneReferencesMatch_
+Running test: _testEntityInCorrectSceneManagers_
+Running test: _testEntitySceneMap_
+Running test: _testCameraWithinWorldBoundary_
+312: ACTIVATE_SCENE
+313: PAN_SPRITE
+Entity id: 272 Pan: [0, -26, 0]
+314: PAN_SPRITE
+Entity id: 256 Pan: [-1, 0, 0]
+315: INSERT_SPRITE
+Insert sprite:  1 1 [1015, 761, 0] 0 True False True False False False
+New entity id: 277
+316: PAN_SPRITE
+Entity id: 144 Pan: [0, 17, 0]
+317: FLIP_ANIMATION
+Entity id: 210 flip animation
+318: INSERT_SPRITE
+Insert sprite:  1 32 [901, 566, 0] 0 False True False False True True
+New entity id: 278
+319: ADD_ENTITY_DEPENDANT
+add to entity: 196, dependant: 263
+320: REMOVE_SPRITE
+Remove sprite:  140
+321: INSERT_SPRITE
+Insert sprite:  2 35 [801, 305, 0] 0 True True False False True True
+New entity id: 279
+322: PAN_SPRITE
+Entity id: 117 Pan: [0, 0, 0]
+323: INSERT_SPRITE
+Insert sprite:  2 35 [1516, 366, -1] 0 False False True False True False
+New entity id: 280
+324: INSERT_SPRITE
+Insert sprite:  2 35 [1302, 2556, 0] 0 False False True False False False
+New entity id: 281
+325: INSERT_SPRITE
+Insert sprite:  2 35 [32, 1302, 0] 0 False False True False True True
+New entity id: 282
+326: PAN_SPRITE
+Entity id: 195 Pan: [-8, 0, 0]
+327: MOVE_SPRITE
+Entity id: 281 Move: [1528, 1568, 51]
+328: INSERT_SPRITE
+Insert sprite:  2 35 [461, 1532, 0] 0 True False False False True True
+New entity id: 283
+329: PAN_SPRITE
+Entity id: 229 Pan: [26, 3, 0]
+330: INSERT_SPRITE
+Insert sprite:  1 32 [444, 2341, 0] 0 True True True False False True
+New entity id: 284
+331: MOVE_SPRITE
+Entity id: 108 Move: [1466, 2376, 5]
+332: ADD_LAYER
+Add Scene Layer:  2 40 1
+333: REMOVE_ENTITY_DEPENDANT
+remove from entity: 173, dependant: 198
+334: ADD_ENTITY_DEPENDANT
+add to entity: 146, dependant: 139
+335: PAN_SPRITE
+Entity id: 252 Pan: [17, -26, 2]
+336: FLIP_ANIMATION
+Entity id: 249 flip animation
+337: PAN_SPRITE
+Entity id: 243 Pan: [0, -14, 0]
+338: SET_BEHAVIOR_STATE
+Entity id: 159 Behavior state: 3
+339: INSERT_SPRITE
+Insert sprite:  1 1 [743, 2252, 0] 0 False True False True True False
+New entity id: 285
+340: INSERT_SPRITE
+Insert sprite:  2 35 [510, 2436, 0] 0 False True True True False False
+New entity id: 286
+341: PAN_SPRITE
+Entity id: 168 Pan: [0, -27, 0]
+342: FLIP_ANIMATION
+Entity id: 202 flip animation
+343: FLIP_ANIMATION
+Entity id: 116 flip animation
+344: ADD_LAYER
+Add Scene Layer:  1 35 1
+345: INSERT_SPRITE
+Insert sprite:  1 32 [1354, 1267, 0] 0 False False True True True True
+New entity id: 287
+346: MOVE_SPRITE
+Entity id: 199 Move: [1047, 787, 15]
+347: FLIP_ANIMATION
+Entity id: 283 flip animation
+348: PAN_SPRITE
+Entity id: 186 Pan: [0, 22, 0]
+349: ADD_ENTITY_DEPENDANT
+add to entity: 129, dependant: 197
+350: ADD_ENTITY_DEPENDANT
+add to entity: 271, dependant: 255
+351: PAN_SPRITE
+Entity id: 203 Pan: [-20, 3, 2]
+352: MOVE_SPRITE
+Entity id: 259 Move: [767, 2442, -78]
+353: FLIP_ANIMATION
+Entity id: 280 flip animation
+354: MOVE_SPRITE
+Entity id: 274 Move: [28, 2535, 42]
+355: FLIP_ANIMATION
+Entity id: 196 flip animation
+356: SET_BEHAVIOR_STATE
+Entity id: 272 Behavior state: 3
+357: INSERT_SPRITE
+Insert sprite:  2 35 [411, 1616, 0] 0 False False False False False False
+New entity id: 288
+358: FLIP_ANIMATION
+Entity id: 159 flip animation
+359: ADD_ENTITY_DEPENDANT
+add to entity: 273, dependant: 288
+360: FLIP_ANIMATION
+Entity id: 254 flip animation
+361: MOVE_SPRITE
+Entity id: 244 Move: [1, 1523, -63]
+362: REMOVE_SPRITE
+Remove sprite:  232
+363: ADD_ENTITY_DEPENDANT
+add to entity: 245, dependant: 251
+364: PAN_SPRITE
+Entity id: 108 Pan: [5, -3, -1]
+365: PAN_SPRITE
+Entity id: 122 Pan: [-12, 0, 0]
+366: FLIP_ANIMATION
+Entity id: 131 flip animation
+367: REMOVE_SPRITE
+Remove sprite:  242
+368: PAN_SPRITE
+Entity id: 287 Pan: [0, 27, 0]
+369: INSERT_SPRITE
+Insert sprite:  1 1 [1609, 911, 0] 0 False False False False True False
+New entity id: 289
+370: PAN_SPRITE
+Entity id: 268 Pan: [0, -22, 0]
+371: FLIP_ANIMATION
+Entity id: 253 flip animation
+372: PAN_SPRITE
+Entity id: 120 Pan: [0, 0, -1]
+373: PAN_SPRITE
+Entity id: 262 Pan: [-13, -6, -2]
+374: REMOVE_ENTITY_DEPENDANT
+remove from entity: 180, dependant: 247
+375: PAN_SPRITE
+Entity id: 155 Pan: [-9, 21, -2]
+376: FLIP_ANIMATION
+Entity id: 271 flip animation
+377: FLIP_ANIMATION
+Entity id: 160 flip animation
+378: MOVE_SPRITE
+Entity id: 257 Move: [1278, 1395, 63]
+379: PAN_SPRITE
+Entity id: 147 Pan: [4, 0, 0]
+380: PAN_SPRITE
+Entity id: 222 Pan: [0, 15, 0]
+381: INSERT_SPRITE
+Insert sprite:  2 40 [186, 2339, 0] 0 True False False False False True
+New entity id: 290
+382: ADD_ENTITY_DEPENDANT
+add to entity: 164, dependant: 237
+383: PAN_CAMERA
+Pan camera:  2   [22, -10]
+384: INSERT_SPRITE
+Insert sprite:  1 35 [553, 143, 0] 0 True True True False False True
+New entity id: 291
+385: ADD_ENTITY_DEPENDANT
+add to entity: 120, dependant: 106
+386: FLIP_ANIMATION
+Entity id: 256 flip animation
+387: REMOVE_SPRITE
+Remove sprite:  194
+388: INSERT_SPRITE
+Insert sprite:  1 32 [99, 814, 0] 0 False True False False True False
+New entity id: 292
+389: FLIP_ANIMATION
+Entity id: 225 flip animation
+390: INSERT_SPRITE
+Insert sprite:  1 32 [946, 1988, 64] 0 False True True False False False
+New entity id: 293
+391: INSERT_SPRITE
+Insert sprite:  1 32 [1339, 600, 0] 0 False True False False False False
+New entity id: 294
+392: INSERT_SPRITE
+Insert sprite:  2 40 [984, 683, 0] 0 False True False True True True
+New entity id: 295
+393: PAN_SPRITE
+Entity id: 199 Pan: [6, 0, 0]
+394: FLIP_ANIMATION
+Entity id: 256 flip animation
+395: SET_BEHAVIOR_STATE
+Entity id: 124 Behavior state: 2
+396: PAN_SPRITE
+Entity id: 117 Pan: [0, 2, 0]
+397: PAN_SPRITE
+Entity id: 269 Pan: [10, 0, 0]
+398: MOVE_SPRITE
+Entity id: 243 Move: [1256, 1054, 60]
+399: PAN_SPRITE
+Entity id: 248 Pan: [6, 0, 0]
+400: ADD_ENTITY_DEPENDANT
+add to entity: 213, dependant: 217
+401: INSERT_SPRITE
+Insert sprite:  1 32 [1186, 759, 0] 0 False True False False False False
+New entity id: 296
+402: MOVE_SPRITE
+Entity id: 261 Move: [760, 2030, -3]
+403: INSERT_SPRITE
+Insert sprite:  1 35 [1281, 2493, -8] 0 True True True False True False
+New entity id: 297
+404: PAN_SPRITE
+Entity id: 180 Pan: [-12, 8, 0]
+405: FLIP_ANIMATION
+Entity id: 147 flip animation
+406: FLIP_ANIMATION
+Entity id: 291 flip animation
+407: PAN_SPRITE
+Entity id: 263 Pan: [-8, -23, -2]
+408: FLIP_ANIMATION
+Entity id: 127 flip animation
+409: FLIP_ANIMATION
+Entity id: 111 flip animation
+410: FLIP_ANIMATION
+Entity id: 212 flip animation
+411: INSERT_SPRITE
+Insert sprite:  1 32 [1431, 755, 0] 0 False False False True True True
+New entity id: 298
+412: FLIP_ANIMATION
+Entity id: 216 flip animation
+413: REMOVE_ENTITY_DEPENDANT
+remove from entity: 164, dependant: 237
+414: PAN_SPRITE
+Entity id: 279 Pan: [0, -2, 0]
+415: PAN_SPRITE
+Entity id: 295 Pan: [25, 0, 0]
+416: FLIP_ANIMATION
+Entity id: 173 flip animation
+417: PAN_SPRITE
+Entity id: 217 Pan: [0, 0, 2]
+418: FLIP_ANIMATION
+Entity id: 123 flip animation
+419: FLIP_ANIMATION
+Entity id: 277 flip animation
+420: INSERT_SPRITE
+Insert sprite:  2 35 [844, 1376, 37] 0 False True False False False True
+New entity id: 299
+421: INSERT_SPRITE
+Insert sprite:  1 1 [1098, 1181, 66] 0 True True False True True False
+New entity id: 300
+422: SET_BEHAVIOR_STATE
+Entity id: 271 Behavior state: 2
+423: FLIP_ANIMATION
+Entity id: 161 flip animation
+424: INSERT_SPRITE
+Insert sprite:  2 40 [44, 657, 0] 0 False True True True False True
+New entity id: 301
+425: FLIP_ANIMATION
+Entity id: 186 flip animation
+426: INSERT_SPRITE
+Insert sprite:  1 35 [954, 336, 55] 0 True False False True False True
+New entity id: 302
+427: ADD_ENTITY_DEPENDANT
+add to entity: 234, dependant: 127
+428: REMOVE_SPRITE
+Remove sprite:  228
+429: MOVE_SPRITE
+Entity id: 111 Move: [1348, 2311, -98]
+430: REMOVE_ENTITY_DEPENDANT
+remove from entity: 217, dependant: 213
+431: INSERT_SPRITE
+Insert sprite:  1 32 [1510, 1406, 11] 0 True False True True False True
+New entity id: 303
+432: MOVE_SPRITE
+Entity id: 256 Move: [1366, 1678, 78]
+433: INSERT_SPRITE
+Insert sprite:  1 35 [797, 2097, 0] 0 False False False False False True
+New entity id: 304
+434: ADD_ENTITY_DEPENDANT
+add to entity: 297, dependant: 302
+435: FLIP_ANIMATION
+Entity id: 155 flip animation
+436: ADD_ENTITY_DEPENDANT
+add to entity: 300, dependant: 108
+437: INSERT_SPRITE
+Insert sprite:  1 1 [994, 1185, 0] 0 False True True True False False
+New entity id: 305
+438: INSERT_SPRITE
+Insert sprite:  1 35 [1553, 2001, 0] 0 False False True True False True
+New entity id: 306
+439: MOVE_SPRITE
+Entity id: 145 Move: [1503, 160, 96]
+440: FLIP_ANIMATION
+Entity id: 198 flip animation
+441: ADD_ENTITY_DEPENDANT
+add to entity: 247, dependant: 235
+442: INSERT_SPRITE
+Insert sprite:  2 35 [1591, 1651, 0] 0 True True False False False True
+New entity id: 307
+443: MOVE_SPRITE
+Entity id: 203 Move: [1543, 369, -50]
+444: REMOVE_SPRITE
+Remove sprite:  125
+445: INSERT_SPRITE
+Insert sprite:  2 40 [340, 981, 0] 0 True False False False True True
+New entity id: 308
+446: MOVE_SPRITE
+Entity id: 261 Move: [1153, 2102, 55]
+447: MOVE_SPRITE
+Entity id: 263 Move: [316, 716, -10]
+448: PAN_SPRITE
+Entity id: 133 Pan: [1, 8, -2]
+449: PAN_SPRITE
+Entity id: 245 Pan: [0, 0, 1]
+450: INSERT_SPRITE
+Insert sprite:  2 40 [1440, 1866, 0] 0 False True True True True False
+New entity id: 309
+451: FLIP_ANIMATION
+Entity id: 139 flip animation
+452: INSERT_SPRITE
+Insert sprite:  2 35 [1252, 2495, 0] 0 True True True False True False
+New entity id: 310
+453: PAN_SPRITE
+Entity id: 230 Pan: [27, 20, -2]
+454: FLIP_ANIMATION
+Entity id: 134 flip animation
+455: FLIP_ANIMATION
+Entity id: 253 flip animation
+456: MOVE_SPRITE
+Entity id: 146 Move: [616, 21, 94]
+457: REMOVE_SPRITE
+Remove sprite:  254
+458: PAN_SPRITE
+Entity id: 221 Pan: [0, 0, -2]
+459: PAN_SPRITE
+Entity id: 105 Pan: [0, 21, 0]
+460: PAN_SPRITE
+Entity id: 176 Pan: [0, 0, -1]
+461: PAN_SPRITE
+Entity id: 169 Pan: [0, 0, 1]
+462: REMOVE_ENTITY_ALWAYS_ACTIVE
+463: INSERT_SPRITE
+Insert sprite:  2 35 [452, 977, 94] 0 True True True False False True
+New entity id: 311
+464: MOVE_SPRITE
+Entity id: 123 Move: [162, 110, -30]
+465: MOVE_SPRITE
+Entity id: 142 Move: [925, 1647, -40]
+466: REMOVE_ENTITY_DEPENDANT
+remove from entity: 302, dependant: 297
+467: REMOVE_SPRITE
+Remove sprite:  240
+468: ADD_ENTITY_DEPENDANT
+add to entity: 239, dependant: 211
+469: MOVE_SPRITE
+Entity id: 131 Move: [918, 476, 71]
+470: PAN_SPRITE
+Entity id: 306 Pan: [-18, 0, 0]
+471: MOVE_SPRITE
+Entity id: 196 Move: [1201, 519, 47]
+472: PAN_SPRITE
+Entity id: 139 Pan: [-13, -25, 2]
+473: ADD_ENTITY_DEPENDANT
+add to entity: 241, dependant: 219
+474: INSERT_SPRITE
+Insert sprite:  2 40 [176, 361, 0] 0 False True True False True False
+New entity id: 312
+475: PAN_SPRITE
+Entity id: 144 Pan: [19, -1, -1]
+476: FLIP_ANIMATION
+Entity id: 144 flip animation
+477: FLIP_ANIMATION
+Entity id: 120 flip animation
+478: REMOVE_SPRITE
+Remove sprite:  196
+479: FLIP_ANIMATION
+Entity id: 185 flip animation
+480: PAN_SPRITE
+Entity id: 296 Pan: [0, -3, 0]
+481: REMOVE_SPRITE
+Remove sprite:  111
+482: PAN_SPRITE
+Entity id: 185 Pan: [0, 3, 0]
+483: INSERT_SPRITE
+Insert sprite:  2 35 [667, 1324, 0] 0 False False False True True False
+New entity id: 313
+484: ADD_ENTITY_DEPENDANT
+add to entity: 192, dependant: 311
+485: INSERT_SPRITE
+Insert sprite:  1 32 [1478, 1612, 0] 0 False False False False False False
+New entity id: 314
+486: PAN_SPRITE
+Entity id: 274 Pan: [0, 0, 0]
+487: MOVE_SPRITE
+Entity id: 153 Move: [1172, 2290, -13]
+488: REMOVE_ENTITY_DEPENDANT
+remove from entity: 271, dependant: 255
+489: INSERT_SPRITE
+Insert sprite:  2 40 [719, 144, 0] 0 False True True False False True
+New entity id: 315
+490: PAN_SPRITE
+Entity id: 315 Pan: [4, 0, 0]
+491: SET_BEHAVIOR_STATE
+Entity id: 197 Behavior state: 1
+492: FLIP_ANIMATION
+Entity id: 282 flip animation
+493: INSERT_SPRITE
+Insert sprite:  1 1 [582, 549, 0] 0 True True False True False False
+New entity id: 316
+494: ADD_LAYER
+Add Scene Layer:  1 10 1
+495: ACTIVATE_ENTITY_PHYSICS
+496: REMOVE_ENTITY_DEPENDANT
+remove from entity: 241, dependant: 219
+497: SET_BEHAVIOR_STATE
+Entity id: 153 Behavior state: 3
+498: PAN_SPRITE
+Entity id: 246 Pan: [-22, 0, 0]
+499: ADD_ENTITY_DEPENDANT
+add to entity: 161, dependant: 109
+500: PAN_SPRITE
+Entity id: 144 Pan: [0, -7, 0]
+501: REMOVE_ENTITY_DEPENDANT
+remove from entity: 146, dependant: 139
+502: MOVE_SPRITE
+Entity id: 124 Move: [592, 2204, 51]
+503: MOVE_SPRITE
+Entity id: 311 Move: [1337, 715, 38]
+504: INSERT_SPRITE
+Insert sprite:  2 40 [100, 450, 0] 0 True True False True False False
+New entity id: 317
+505: INSERT_SPRITE
+Insert sprite:  2 40 [1533, 369, 0] 0 True True True True True True
+New entity id: 318
+506: PAN_SPRITE
+Entity id: 142 Pan: [0, 0, 2]
+507: INSERT_SPRITE
+Insert sprite:  2 35 [702, 1972, 87] 0 True False True True True True
+New entity id: 319
+508: INSERT_SPRITE
+Insert sprite:  2 40 [515, 89, 0] 0 False True True True True True
+New entity id: 320
+509: ACTIVATE_ENTITY_PHYSICS
+510: SET_BEHAVIOR_STATE
+Entity id: 241 Behavior state: 3
+511: PAN_SPRITE
+Entity id: 173 Pan: [-23, -30, 0]
+512: INSERT_SPRITE
+Insert sprite:  2 40 [506, 854, 0] 0 False True False True False True
+New entity id: 321
+513: FLIP_ANIMATION
+Entity id: 158 flip animation
+514: SET_ENTITY_ALWAYS_ACTIVE
+515: ADD_ENTITY_DEPENDANT
+add to entity: 213, dependant: 278
+516: FLIP_ANIMATION
+Entity id: 289 flip animation
+517: FLIP_ANIMATION
+Entity id: 152 flip animation
+518: INSERT_SPRITE
+Insert sprite:  2 35 [226, 1474, 51] 0 True True True False False False
+New entity id: 322
+519: INSERT_SPRITE
+Insert sprite:  2 35 [544, 112, 0] 0 False False False True False True
+New entity id: 323
+520: ADD_ENTITY_DEPENDANT
+add to entity: 287, dependant: 298
+521: INSERT_SPRITE
+Insert sprite:  2 40 [65, 1824, 0] 0 False True True False False False
+New entity id: 324
+522: INSERT_SPRITE
+Insert sprite:  2 35 [1097, 789, 0] 0 True True False False True False
+New entity id: 325
+523: ADD_ENTITY_DEPENDANT
+add to entity: 315, dependant: 324
+524: ADD_ENTITY_DEPENDANT
+add to entity: 286, dependant: 266
+525: INSERT_SPRITE
+Insert sprite:  2 35 [1311, 2393, 7] 0 False True False False False False
+New entity id: 326
+526: PAN_SPRITE
+Entity id: 308 Pan: [0, -9, 0]
+527: MOVE_SPRITE
+Entity id: 145 Move: [795, 1814, -7]
+528: INSERT_SPRITE
+Insert sprite:  2 35 [978, 377, 0] 0 False True True True True True
+New entity id: 327
+529: INSERT_SPRITE
+Insert sprite:  2 35 [125, 1270, 0] 0 False True True False True True
+New entity id: 328
+530: FLIP_ANIMATION
+Entity id: 201 flip animation
+531: ADD_ENTITY_DEPENDANT
+add to entity: 233, dependant: 267
+532: INSERT_SPRITE
+Insert sprite:  1 1 [247, 1733, 0] 0 False False True True False False
+New entity id: 329
+533: INSERT_SPRITE
+Insert sprite:  2 35 [1195, 710, 0] 0 False False True True False False
+New entity id: 330
+534: FLIP_ANIMATION
+Entity id: 184 flip animation
+535: ADD_ENTITY_DEPENDANT
+add to entity: 225, dependant: 146
+536: MOVE_SPRITE
+Entity id: 306 Move: [1311, 358, -6]
+537: INSERT_SPRITE
+Insert sprite:  1 32 [60, 782, 0] 0 False False False True False True
+New entity id: 331
+538: FLIP_ANIMATION
+Entity id: 127 flip animation
+539: INSERT_SPRITE
+Insert sprite:  1 10 [1299, 296, 0] 0 False True True True True True
+New entity id: 332
+540: REMOVE_SPRITE
+Remove sprite:  287
+541: INSERT_SPRITE
+Insert sprite:  1 10 [1033, 2227, 0] 0 False True False False False True
+New entity id: 333
+542: INSERT_SPRITE
+Insert sprite:  1 35 [799, 2478, 0] 0 True True True False False True
+New entity id: 334
+543: INSERT_SPRITE
+Insert sprite:  1 32 [1516, 12, 0] 0 True False True True False False
+New entity id: 335
+544: ADD_ENTITY_DEPENDANT
+add to entity: 313, dependant: 158
+545: INSERT_SPRITE
+Insert sprite:  2 35 [579, 2398, 0] 0 False True False False True False
+New entity id: 336
+546: INSERT_SPRITE
+Insert sprite:  2 35 [1311, 667, 0] 0 True False False True False True
+New entity id: 337
+547: INSERT_SPRITE
+Insert sprite:  2 35 [1204, 739, 56] 0 False False True True True True
+New entity id: 338
+548: PAN_SPRITE
+Entity id: 192 Pan: [0, 15, 0]
+549: ADD_ENTITY_DEPENDANT
+add to entity: 329, dependant: 258
+550: MOVE_SPRITE
+Entity id: 217 Move: [884, 2183, 30]
+551: ADD_ENTITY_DEPENDANT
+add to entity: 191, dependant: 151
+552: PAN_SPRITE
+Entity id: 215 Pan: [0, 0, -2]
+553: INSERT_SPRITE
+Insert sprite:  2 40 [597, 1840, 31] 0 True True False False True True
+New entity id: 339
+554: FLIP_ANIMATION
+Entity id: 112 flip animation
+555: PAN_SPRITE
+Entity id: 180 Pan: [-21, 0, 0]
+556: FLIP_ANIMATION
+Entity id: 164 flip animation
+557: MOVE_SPRITE
+Entity id: 261 Move: [618, 1517, 88]
+558: FLIP_ANIMATION
+Entity id: 250 flip animation
+559: PAN_SPRITE
+Entity id: 239 Pan: [0, -9, 0]
+560: INSERT_SPRITE
+Insert sprite:  2 35 [1288, 1911, 0] 0 False False False True False False
+New entity id: 340
+561: INSERT_SPRITE
+Insert sprite:  2 40 [1396, 447, 0] 0 False True False True False False
+New entity id: 341
+562: INSERT_SPRITE
+Insert sprite:  2 35 [234, 2101, 0] 0 False True False True False False
+New entity id: 342
+563: PAN_SPRITE
+Entity id: 138 Pan: [-11, 0, 0]
+564: PAN_SPRITE
+Entity id: 302 Pan: [0, 0, -2]
+565: INSERT_SPRITE
+Insert sprite:  1 32 [540, 545, 0] 0 True True False False False True
+New entity id: 343
+566: FLIP_ANIMATION
+Entity id: 318 flip animation
+567: MOVE_SPRITE
+Entity id: 178 Move: [8, 28, -40]
+568: FLIP_ANIMATION
+Entity id: 222 flip animation
+569: MOVE_SPRITE
+Entity id: 248 Move: [412, 1209, -22]
+570: FLIP_ANIMATION
+Entity id: 179 flip animation
+571: FLIP_ANIMATION
+Entity id: 266 flip animation
+572: INSERT_SPRITE
+Insert sprite:  2 40 [879, 190, 86] 0 False True True True True True
+New entity id: 344
+573: MOVE_SPRITE
+Entity id: 231 Move: [181, 1899, -22]
+574: ACTIVATE_ENTITY_PHYSICS
+575: REMOVE_SPRITE
+Remove sprite:  303
+576: PAN_SPRITE
+Entity id: 153 Pan: [0, -3, 0]
+577: ACTIVATE_ENTITY_AI
+578: PAN_SPRITE
+Entity id: 237 Pan: [0, 0, 0]
+579: INSERT_SPRITE
+Insert sprite:  1 10 [405, 1776, 0] 0 True True True True True True
+New entity id: 345
+580: ADD_ENTITY_DEPENDANT
+add to entity: 278, dependant: 272
+581: FLIP_ANIMATION
+Entity id: 119 flip animation
+582: ADD_ENTITY_DEPENDANT
+add to entity: 203, dependant: 252
+583: INSERT_SPRITE
+Insert sprite:  1 1 [403, 834, 38] 0 True False True False False False
+New entity id: 346
+584: INSERT_SPRITE
+Insert sprite:  2 35 [38, 1209, 0] 0 True False False False True True
+New entity id: 347
+585: FLIP_ANIMATION
+Entity id: 145 flip animation
+586: ADD_ENTITY_DEPENDANT
+add to entity: 319, dependant: 330
+587: INSERT_SPRITE
+Insert sprite:  1 1 [1555, 2186, 0] 0 True True False True False True
+New entity id: 348
+588: INSERT_SPRITE
+Insert sprite:  2 35 [113, 1668, 0] 0 True True True False False True
+New entity id: 349
+589: ADD_ENTITY_DEPENDANT
+add to entity: 117, dependant: 261
+590: PAN_SPRITE
+Entity id: 260 Pan: [0, 17, 0]
+591: MOVE_SPRITE
+Entity id: 316 Move: [123, 1742, -83]
+592: PAN_SPRITE
+Entity id: 339 Pan: [19, 0, 0]
+593: PAN_SPRITE
+Entity id: 145 Pan: [0, 0, -1]
+594: INSERT_SPRITE
+Insert sprite:  2 35 [1183, 174, 0] 0 False True True False True False
+New entity id: 350
+595: MOVE_SPRITE
+Entity id: 211 Move: [1251, 1894, 10]
+596: PAN_SPRITE
+Entity id: 210 Pan: [0, 14, 0]
+597: DEACTIVATE_ENTITY_BEHAVIOR
+598: FLIP_ANIMATION
+Entity id: 185 flip animation
+599: PAN_SPRITE
+Entity id: 290 Pan: [-28, 21, 2]
+600: INSERT_SPRITE
+Insert sprite:  2 35 [291, 517, 65] 0 True True True False False False
+New entity id: 351
+601: ACTIVATE_ENTITY_AI
+602: FLIP_ANIMATION
+Entity id: 255 flip animation
+603: ADD_ENTITY_DEPENDANT
+add to entity: 273, dependant: 351
+604: ADD_ENTITY_DEPENDANT
+add to entity: 314, dependant: 293
+605: INSERT_SPRITE
+Insert sprite:  2 40 [203, 1155, 22] 0 False False True False True True
+New entity id: 352
+606: INSERT_SPRITE
+Insert sprite:  2 40 [1551, 2093, 10] 0 True True True False True True
+New entity id: 353
+607: PAN_SPRITE
+Entity id: 211 Pan: [-20, 1, 0]
+608: REMOVE_ENTITY_DEPENDANT
+remove from entity: 247, dependant: 235
+609: PAN_SPRITE
+Entity id: 133 Pan: [0, 0, -1]
+610: REMOVE_SPRITE
+Remove sprite:  119
+611: REMOVE_SPRITE
+Remove sprite:  284
+612: INSERT_SPRITE
+Insert sprite:  1 1 [1602, 1711, 20] 0 False True True True False False
+New entity id: 354
+613: MOVE_SPRITE
+Entity id: 331 Move: [884, 1403, 5]
+614: PAN_SPRITE
+Entity id: 313 Pan: [0, 0, 0]
+615: INSERT_SPRITE
+Insert sprite:  2 40 [628, 2518, 0] 0 True False False True False False
+New entity id: 355
+616: PAN_SPRITE
+Entity id: 246 Pan: [30, 0, 0]
+617: INSERT_SPRITE
+Insert sprite:  1 35 [1347, 1694, 0] 0 True True False False True True
+New entity id: 356
+618: REMOVE_ENTITY_DEPENDANT
+remove from entity: 319, dependant: 330
+619: FLIP_ANIMATION
+Entity id: 296 flip animation
+620: FLIP_ANIMATION
+Entity id: 201 flip animation
+621: FLIP_ANIMATION
+Entity id: 153 flip animation
+622: ADD_ENTITY_DEPENDANT
+add to entity: 255, dependant: 123
+623: INSERT_SPRITE
+Insert sprite:  1 10 [317, 1005, 0] 0 False True True False True True
+New entity id: 357
+624: FLIP_ANIMATION
+Entity id: 305 flip animation
+625: ADD_ENTITY_DEPENDANT
+add to entity: 107, dependant: 277
+626: ADD_ENTITY_DEPENDANT
+add to entity: 297, dependant: 356
+627: REMOVE_SPRITE
+Remove sprite:  135
+628: REMOVE_ENTITY_DEPENDANT
+remove from entity: 252, dependant: 203
+629: ACTIVATE_ENTITY_BEHAVIOR
+630: FLIP_ANIMATION
+Entity id: 234 flip animation
+631: PAN_SPRITE
+Entity id: 335 Pan: [0, 0, -1]
+632: PAN_SPRITE
+Entity id: 306 Pan: [-16, 0, 0]
+633: PAN_SPRITE
+Entity id: 212 Pan: [0, 4, 0]
+634: PAN_SPRITE
+Entity id: 288 Pan: [-28, 0, 0]
+635: PAN_SPRITE
+Entity id: 109 Pan: [0, 6, 0]
+636: MOVE_SPRITE
+Entity id: 278 Move: [448, 5, -71]
+637: PAN_SPRITE
+Entity id: 200 Pan: [0, -28, 0]
+638: FLIP_ANIMATION
+Entity id: 181 flip animation
+639: INSERT_SPRITE
+Insert sprite:  1 1 [1274, 222, 70] 0 False False True True False False
+New entity id: 358
+640: PAN_SPRITE
+Entity id: 308 Pan: [-20, 0, 0]
+641: MOVE_SPRITE
+Entity id: 292 Move: [631, 875, -78]
+642: PAN_SPRITE
+Entity id: 335 Pan: [0, 0, -1]
+643: INSERT_SPRITE
+Insert sprite:  1 35 [1079, 2094, 0] 0 False True True True True True
+New entity id: 359
+644: SET_BEHAVIOR_STATE
+Entity id: 263 Behavior state: 2
+645: PAN_SPRITE
+Entity id: 159 Pan: [4, 0, 0]
+646: DEACTIVATE_ENTITY_BEHAVIOR
+647: REMOVE_SPRITE
+Remove sprite:  250
+648: FLIP_ANIMATION
+Entity id: 307 flip animation
+649: FLIP_ANIMATION
+Entity id: 347 flip animation
+650: MOVE_SPRITE
+Entity id: 203 Move: [735, 1051, -30]
+651: FLIP_ANIMATION
+Entity id: 298 flip animation
+652: REMOVE_ENTITY_DEPENDANT
+remove from entity: 108, dependant: 300
+653: INSERT_SPRITE
+Insert sprite:  1 10 [458, 2123, 0] 0 False False False False False True
+New entity id: 360
+654: REMOVE_SPRITE
+Remove sprite:  155
+655: INSERT_SPRITE
+Insert sprite:  2 40 [189, 1042, 0] 0 True False True True False False
+New entity id: 361
+656: REMOVE_ENTITY_DEPENDANT
+remove from entity: 267, dependant: 233
+657: ADD_ENTITY_DEPENDANT
+add to entity: 291, dependant: 359
+658: FLIP_ANIMATION
+Entity id: 246 flip animation
+659: INSERT_SPRITE
+Insert sprite:  2 40 [6, 2432, 0] 0 True False True False False True
+New entity id: 362
+660: INSERT_SPRITE
+Insert sprite:  1 35 [283, 312, 0] 0 True True True False True True
+New entity id: 363
+661: REMOVE_ENTITY_DEPENDANT
+remove from entity: 160, dependant: 229
+662: MOVE_SPRITE
+Entity id: 213 Move: [124, 78, -69]
+663: FLIP_ANIMATION
+Entity id: 346 flip animation
+664: PAN_SPRITE
+Entity id: 180 Pan: [9, -27, -2]
+665: MOVE_SPRITE
+Entity id: 237 Move: [53, 1427, 22]
+666: REMOVE_ENTITY_DEPENDANT
+remove from entity: 278, dependant: 213
+667: REMOVE_SPRITE
+Remove sprite:  213
+668: PAN_SPRITE
+Entity id: 233 Pan: [25, 0, 0]
+669: INSERT_SPRITE
+Insert sprite:  2 40 [266, 518, -9] 0 True False False False True False
+New entity id: 364
+670: MOVE_SPRITE
+Entity id: 305 Move: [1182, 2072, 5]
+671: REMOVE_ENTITY_DEPENDANT
+remove from entity: 225, dependant: 146
+672: FLIP_ANIMATION
+Entity id: 195 flip animation
+673: PAN_SPRITE
+Entity id: 166 Pan: [-9, 20, 1]
+674: SET_BEHAVIOR_STATE
+Entity id: 181 Behavior state: 3
+675: FLIP_ANIMATION
+Entity id: 294 flip animation
+676: ADD_ENTITY_DEPENDANT
+add to entity: 188, dependant: 349
+677: ADD_ENTITY_DEPENDANT
+add to entity: 215, dependant: 294
+678: INSERT_SPRITE
+Insert sprite:  1 32 [700, 409, 0] 0 True True False False False False
+New entity id: 365
+679: MOVE_SPRITE
+Entity id: 214 Move: [473, 550, 81]
+680: PAN_SPRITE
+Entity id: 293 Pan: [0, 0, -2]
+681: INSERT_SPRITE
+Insert sprite:  1 1 [385, 2443, 0] 0 False False False True True False
+New entity id: 366
+682: MOVE_SPRITE
+Entity id: 355 Move: [1471, 2092, -64]
+683: INSERT_SPRITE
+Insert sprite:  2 40 [1007, 30, 0] 0 False False False True False False
+New entity id: 367
+684: PAN_SPRITE
+Entity id: 357 Pan: [0, -5, 0]
+685: SET_BEHAVIOR_STATE
+Entity id: 280 Behavior state: 1
+686: INSERT_SPRITE
+Insert sprite:  1 1 [759, 57, 54] 0 False False True True False True
+New entity id: 368
+687: INSERT_SPRITE
+Insert sprite:  2 35 [1073, 1183, 0] 0 True True True False True False
+New entity id: 369
+688: MOVE_SPRITE
+Entity id: 124 Move: [519, 2431, 61]
+689: INSERT_SPRITE
+Insert sprite:  1 32 [768, 2560, 0] 0 True True False True True False
+New entity id: 370
+690: ADD_ENTITY_DEPENDANT
+add to entity: 109, dependant: 214
+691: ADD_ENTITY_DEPENDANT
+add to entity: 327, dependant: 198
+692: FLIP_ANIMATION
+Entity id: 359 flip animation
+693: REMOVE_ENTITY_DEPENDANT
+remove from entity: 266, dependant: 286
+694: REMOVE_SPRITE
+Remove sprite:  324
+695: INSERT_SPRITE
+Insert sprite:  2 35 [808, 1165, 0] 0 True False True True False True
+New entity id: 371
+696: PAN_SPRITE
+Entity id: 106 Pan: [-27, 18, 2]
+697: MOVE_SPRITE
+Entity id: 181 Move: [578, 871, 100]
+698: MOVE_SPRITE
+Entity id: 263 Move: [887, 1073, 70]
+699: MOVE_SPRITE
+Entity id: 234 Move: [730, 705, -24]
+700: ADD_ENTITY_DEPENDANT
+add to entity: 361, dependant: 367
+701: REMOVE_ENTITY_DEPENDANT
+remove from entity: 359, dependant: 291
+702: FLIP_ANIMATION
+Entity id: 343 flip animation
+703: INSERT_SPRITE
+Insert sprite:  2 35 [1061, 605, 0] 0 False False True True False True
+New entity id: 372
+704: PAN_SPRITE
+Entity id: 306 Pan: [0, 0, 1]
+705: ADD_ENTITY_DEPENDANT
+add to entity: 355, dependant: 290
+706: MOVE_SPRITE
+Entity id: 173 Move: [493, 1245, -64]
+707: FLIP_ANIMATION
+Entity id: 344 flip animation
+708: INSERT_SPRITE
+Insert sprite:  1 1 [904, 1082, 0] 0 False True False False True False
+New entity id: 373
+709: PAN_CAMERA
+Pan camera:  2   [0, -16]
+710: INSERT_SPRITE
+Insert sprite:  1 1 [1091, 1397, 0] 0 False False False False False True
+New entity id: 374
+711: INSERT_SPRITE
+Insert sprite:  2 35 [239, 1531, 0] 0 False False False False True False
+New entity id: 375
+712: INSERT_SPRITE
+Insert sprite:  1 1 [167, 97, 0] 0 False False True False False True
+New entity id: 376
+713: REMOVE_SPRITE
+Remove sprite:  283
+714: FLIP_ANIMATION
+Entity id: 275 flip animation
+715: INSERT_SPRITE
+Insert sprite:  2 35 [21, 1624, 0] 0 False False True True True False
+New entity id: 377
+716: REMOVE_SPRITE
+Remove sprite:  108
+717: FLIP_ANIMATION
+Entity id: 345 flip animation
+718: INSERT_SPRITE
+Insert sprite:  2 35 [511, 1606, 0] 0 True False True False False False
+New entity id: 378
+719: SET_BEHAVIOR_STATE
+Entity id: 321 Behavior state: 1
+720: FLIP_ANIMATION
+Entity id: 159 flip animation
+721: INSERT_SPRITE
+Insert sprite:  1 1 [339, 1404, 0] 0 True True False False True True
+New entity id: 379
+722: REMOVE_SPRITE
+Remove sprite:  315
+723: REMOVE_SPRITE
+Remove sprite:  217
+724: ACTIVATE_SCENE
+725: INSERT_SPRITE
+Insert sprite:  2 40 [1221, 1375, 0] 0 False True True False False True
+New entity id: 380
+726: PAN_SPRITE
+Entity id: 354 Pan: [0, -2, 0]
+727: REMOVE_SPRITE
+Remove sprite:  370
+728: PAN_SPRITE
+Entity id: 261 Pan: [0, 0, 1]
+729: PAN_SPRITE
+Entity id: 267 Pan: [-4, 0, 0]
+730: FLIP_ANIMATION
+Entity id: 262 flip animation
+731: MOVE_SPRITE
+Entity id: 371 Move: [1012, 1848, -44]
+732: FLIP_ANIMATION
+Entity id: 239 flip animation
+733: FLIP_ANIMATION
+Entity id: 293 flip animation
+734: ADD_ENTITY_DEPENDANT
+add to entity: 305, dependant: 153
+735: PAN_CAMERA
+Pan camera:  2   [18, 0]
+736: INSERT_SPRITE
+Insert sprite:  1 10 [1111, 988, 0] 0 False True True False True True
+New entity id: 381
+737: ADD_ENTITY_DEPENDANT
+add to entity: 367, dependant: 320
+738: MOVE_SPRITE
+Entity id: 356 Move: [410, 1426, -41]
+739: FLIP_ANIMATION
+Entity id: 297 flip animation
+740: INSERT_SPRITE
+Insert sprite:  2 40 [878, 649, 0] 0 True True True False False False
+New entity id: 382
+741: PAN_SPRITE
+Entity id: 366 Pan: [0, 0, -1]
+742: SET_BEHAVIOR_STATE
+Entity id: 289 Behavior state: 1
+743: MOVE_SPRITE
+Entity id: 340 Move: [197, 1533, 52]
+744: FLIP_ANIMATION
+Entity id: 375 flip animation
+745: FLIP_ANIMATION
+Entity id: 301 flip animation
+746: PAN_SPRITE
+Entity id: 363 Pan: [6, 0, 0]
+747: REMOVE_SPRITE
+Remove sprite:  296
+748: INSERT_SPRITE
+Insert sprite:  2 40 [1360, 675, 0] 0 True False False False True True
+New entity id: 383
+749: REMOVE_SPRITE
+Remove sprite:  333
+750: ADD_ENTITY_DEPENDANT
+add to entity: 294, dependant: 264
+751: INSERT_SPRITE
+Insert sprite:  2 35 [235, 206, 0] 0 False False True True False False
+New entity id: 384
+752: INSERT_SPRITE
+Insert sprite:  2 35 [169, 2328, 0] 0 True False False False True True
+New entity id: 385
+753: PAN_SPRITE
+Entity id: 139 Pan: [-24, 0, 0]
+754: INSERT_SPRITE
+Insert sprite:  2 40 [1164, 1937, 0] 0 False False False False True False
+New entity id: 386
+755: PAN_SPRITE
+Entity id: 201 Pan: [28, 0, 0]
+756: INSERT_SPRITE
+Insert sprite:  1 32 [453, 1247, 0] 0 True False False False True False
+New entity id: 387
+757: REMOVE_ENTITY_DEPENDANT
+remove from entity: 197, dependant: 129
+758: SET_BEHAVIOR_STATE
+Entity id: 366 Behavior state: 1
+759: PAN_CAMERA
+Pan camera:  2   [28, 3]
+760: PAN_SPRITE
+Entity id: 288 Pan: [0, 0, 0]
+761: INSERT_SPRITE
+Insert sprite:  1 32 [747, 1338, 0] 0 False True True True False True
+New entity id: 388
+762: ADD_ENTITY_DEPENDANT
+add to entity: 288, dependant: 139
+763: ADD_ENTITY_DEPENDANT
+add to entity: 316, dependant: 121
+764: PAN_SPRITE
+Entity id: 169 Pan: [17, 0, 0]
+765: ACTIVATE_ENTITY_PHYSICS
+766: INSERT_SPRITE
+Insert sprite:  1 1 [429, 1131, 0] 0 False False True False True False
+New entity id: 389
+767: INSERT_SPRITE
+Insert sprite:  2 40 [795, 1685, 0] 0 True False False True False True
+New entity id: 390
+768: INSERT_SPRITE
+Insert sprite:  1 35 [1583, 156, 0] 0 False False False True False True
+New entity id: 391
+769: FLIP_ANIMATION
+Entity id: 253 flip animation
+770: INSERT_SPRITE
+Insert sprite:  1 10 [403, 1301, 0] 0 True True True True True False
+New entity id: 392
+771: ADD_ENTITY_DEPENDANT
+add to entity: 233, dependant: 342
+772: INSERT_SPRITE
+Insert sprite:  1 35 [1280, 232, 0] 0 True False False False True False
+New entity id: 393
+773: PAN_SPRITE
+Entity id: 243 Pan: [0, 28, 0]
+774: INSERT_SPRITE
+Insert sprite:  1 10 [980, 190, 0] 0 True True False False False True
+New entity id: 394
+775: SET_BEHAVIOR_STATE
+Entity id: 280 Behavior state: 1
+776: SET_BEHAVIOR_STATE
+Entity id: 328 Behavior state: 1
+777: PAN_SPRITE
+Entity id: 248 Pan: [0, 14, 0]
+778: ACTIVATE_ENTITY_AI
+779: ADD_ENTITY_DEPENDANT
+add to entity: 248, dependant: 247
+780: INSERT_SPRITE
+Insert sprite:  2 40 [1487, 1362, 0] 0 False False False False False True
+New entity id: 395
+781: PAN_SPRITE
+Entity id: 302 Pan: [6, 0, 0]
+782: ADD_ENTITY_DEPENDANT
+add to entity: 266, dependant: 136
+783: MOVE_SPRITE
+Entity id: 316 Move: [1422, 1191, 25]
+784: PAN_SPRITE
+Entity id: 146 Pan: [11, 0, 0]
+785: SET_BEHAVIOR_STATE
+Entity id: 199 Behavior state: 1
+786: INSERT_SPRITE
+Insert sprite:  2 35 [1537, 378, 0] 0 True True False False True True
+New entity id: 396
+787: PAN_SPRITE
+Entity id: 188 Pan: [12, 0, 0]
+788: FLIP_ANIMATION
+Entity id: 292 flip animation
+789: ADD_ENTITY_DEPENDANT
+add to entity: 378, dependant: 145
+790: FLIP_ANIMATION
+Entity id: 136 flip animation
+791: ADD_ENTITY_DEPENDANT
+add to entity: 211, dependant: 105
+792: SET_BEHAVIOR_STATE
+Entity id: 151 Behavior state: 2
+793: INSERT_SPRITE
+Insert sprite:  2 40 [803, 2227, 0] 0 False False True True False False
+New entity id: 397
+794: INSERT_SPRITE
+Insert sprite:  1 32 [465, 175, 0] 0 False True True True True False
+New entity id: 398
+795: INSERT_SPRITE
+Insert sprite:  2 40 [1334, 2113, 0] 0 True False True False True False
+New entity id: 399
+796: INSERT_SPRITE
+Insert sprite:  1 32 [1569, 9, 0] 0 True False False True True False
+New entity id: 400
+797: INSERT_SPRITE
+Insert sprite:  1 35 [643, 2159, -8] 0 True True True False False True
+New entity id: 401
+798: FLIP_ANIMATION
+Entity id: 316 flip animation
+799: MOVE_SPRITE
+Entity id: 387 Move: [1211, 1131, -44]
+800: MOVE_SPRITE
+Entity id: 214 Move: [94, 2182, 81]
+801: FLIP_ANIMATION
+Entity id: 159 flip animation
+802: PAN_SPRITE
+Entity id: 399 Pan: [21, 0, 0]
+803: REMOVE_SPRITE
+Remove sprite:  364
+804: INSERT_SPRITE
+Insert sprite:  1 32 [37, 476, 18] 0 False True True False False True
+New entity id: 402
+805: PAN_SPRITE
+Entity id: 158 Pan: [-24, 7, 0]
+806: PAN_SPRITE
+Entity id: 192 Pan: [0, -17, 0]
+807: REMOVE_ENTITY_DEPENDANT
+remove from entity: 261, dependant: 117
+808: PAN_SPRITE
+Entity id: 121 Pan: [11, 4, 0]
+809: PAN_SPRITE
+Entity id: 308 Pan: [0, 0, 1]
+810: REMOVE_SPRITE
+Remove sprite:  192
+811: ADD_ENTITY_DEPENDANT
+add to entity: 312, dependant: 386
+812: SET_BEHAVIOR_STATE
+Entity id: 369 Behavior state: 1
+813: MOVE_SPRITE
+Entity id: 365 Move: [1438, 70, 39]
+814: ACTIVATE_ENTITY_PHYSICS
+815: PAN_SPRITE
+Entity id: 123 Pan: [26, -4, 2]
+816: PAN_SPRITE
+Entity id: 200 Pan: [23, 19, 0]
+817: REMOVE_ENTITY_DEPENDANT
+remove from entity: 255, dependant: 123
+818: ADD_ENTITY_DEPENDANT
+add to entity: 329, dependant: 132
+819: FLIP_ANIMATION
+Entity id: 348 flip animation
+820: PAN_SPRITE
+Entity id: 272 Pan: [0, -7, 0]
+821: PAN_SPRITE
+Entity id: 331 Pan: [0, 4, 0]
+822: INSERT_SPRITE
+Insert sprite:  1 32 [296, 2143, 0] 0 False False False True False True
+New entity id: 403
+823: FLIP_ANIMATION
+Entity id: 172 flip animation
+824: FLIP_ANIMATION
+Entity id: 211 flip animation
+825: INSERT_SPRITE
+Insert sprite:  2 40 [1037, 327, 0] 0 False False True False True False
+New entity id: 404
+826: INSERT_SPRITE
+Insert sprite:  1 10 [1492, 191, 0] 0 False True False False False False
+New entity id: 405
+827: FLIP_ANIMATION
+Entity id: 371 flip animation
+828: PAN_SPRITE
+Entity id: 161 Pan: [0, -8, 0]
+829: INSERT_SPRITE
+Insert sprite:  2 40 [153, 57, 0] 0 False True False True True False
+New entity id: 406
+830: ADD_ENTITY_DEPENDANT
+add to entity: 351, dependant: 371
+831: INSERT_SPRITE
+Insert sprite:  1 35 [632, 2563, 82] 0 True False True True True True
+New entity id: 407
+832: FLIP_ANIMATION
+Entity id: 229 flip animation
+833: INSERT_SPRITE
+Insert sprite:  1 10 [1091, 2436, 22] 0 True False True False False True
+New entity id: 408
+834: FLIP_ANIMATION
+Entity id: 328 flip animation
+835: SET_BEHAVIOR_STATE
+Entity id: 322 Behavior state: 2
+836: PAN_SPRITE
+Entity id: 272 Pan: [0, -6, 0]
+837: INSERT_SPRITE
+Insert sprite:  2 35 [596, 410, 0] 0 False False False False False True
+New entity id: 409
+838: ADD_ENTITY_DEPENDANT
+add to entity: 262, dependant: 138
+839: INSERT_SPRITE
+Insert sprite:  1 32 [776, 759, 37] 0 True True False True True False
+New entity id: 410
+840: MOVE_SPRITE
+Entity id: 406 Move: [614, 2516, -17]
+841: MOVE_SPRITE
+Entity id: 310 Move: [441, 2528, -98]
+842: REMOVE_SPRITE
+Remove sprite:  239
+843: SET_SPRITE_VISIBLE
+844: MOVE_SPRITE
+Entity id: 222 Move: [512, 2421, 19]
+845: INSERT_SPRITE
+Insert sprite:  1 10 [412, 909, 0] 0 False False True False True True
+New entity id: 411
+846: FLIP_ANIMATION
+Entity id: 144 flip animation
+847: MOVE_SPRITE
+Entity id: 266 Move: [1205, 643, 88]
+848: SET_BEHAVIOR_STATE
+Entity id: 178 Behavior state: 3
+849: FLIP_ANIMATION
+Entity id: 385 flip animation
+850: PAN_SPRITE
+Entity id: 272 Pan: [0, -29, 0]
+851: MOVE_SPRITE
+Entity id: 136 Move: [926, 892, 50]
+852: FLIP_ANIMATION
+Entity id: 292 flip animation
+853: INSERT_SPRITE
+Insert sprite:  1 32 [186, 2523, 0] 0 False False True False False True
+New entity id: 412
+854: INSERT_SPRITE
+Insert sprite:  2 35 [572, 798, 0] 0 True True True True False False
+New entity id: 413
+855: MOVE_SPRITE
+Entity id: 395 Move: [657, 1842, 33]
+856: INSERT_SPRITE
+Insert sprite:  2 40 [338, 2064, 0] 0 False False False True True True
+New entity id: 414
+857: INSERT_SPRITE
+Insert sprite:  1 1 [862, 1354, 0] 0 False False True True True False
+New entity id: 415
+858: PAN_SPRITE
+Entity id: 176 Pan: [25, -19, 2]
+859: INSERT_SPRITE
+Insert sprite:  2 35 [764, 1678, 0] 0 True True True False False True
+New entity id: 416
+860: INSERT_SPRITE
+Insert sprite:  1 1 [1210, 205, 0] 0 False False True True False False
+New entity id: 417
+861: PAN_SPRITE
+Entity id: 169 Pan: [-7, 0, 0]
+862: INSERT_SPRITE
+Insert sprite:  2 40 [1133, 2231, 0] 0 False True False False False True
+New entity id: 418
+863: INSERT_SPRITE
+Insert sprite:  2 35 [542, 1764, 59] 0 False True False False True False
+New entity id: 419
+864: PAN_SPRITE
+Entity id: 107 Pan: [26, 0, 0]
+865: INSERT_SPRITE
+Insert sprite:  1 35 [250, 1237, 0] 0 False False True False False False
+New entity id: 420
+866: INSERT_SPRITE
+Insert sprite:  1 1 [910, 255, 79] 0 True False True True False True
+New entity id: 421
+867: PAN_SPRITE
+Entity id: 355 Pan: [0, 0, 2]
+868: PAN_SPRITE
+Entity id: 357 Pan: [25, 0, 0]
+869: MOVE_SPRITE
+Entity id: 375 Move: [517, 1200, 89]
+870: SET_ENTITY_ALWAYS_ACTIVE
+871: FLIP_ANIMATION
+Entity id: 168 flip animation
+872: INSERT_SPRITE
+Insert sprite:  2 40 [351, 953, 0] 0 True True False True False True
+New entity id: 422
+873: FLIP_ANIMATION
+Entity id: 395 flip animation
+874: INSERT_SPRITE
+Insert sprite:  1 32 [176, 1616, 0] 0 True False False False False True
+New entity id: 423
+875: INSERT_SPRITE
+Insert sprite:  1 1 [1369, 1881, 0] 0 True True False False False True
+New entity id: 424
+876: REMOVE_ENTITY_DEPENDANT
+remove from entity: 258, dependant: 329
+877: INSERT_SPRITE
+Insert sprite:  2 35 [316, 1044, 75] 0 False True False True True True
+New entity id: 425
+878: PAN_SPRITE
+Entity id: 279 Pan: [17, 0, 0]
+879: INSERT_SPRITE
+Insert sprite:  1 35 [1029, 121, 0] 0 False False True False False True
+New entity id: 426
+880: INSERT_SPRITE
+Insert sprite:  2 40 [53, 1966, 0] 0 False True False False True False
+New entity id: 427
+881: INSERT_SPRITE
+Insert sprite:  2 35 [1282, 2030, 0] 0 False False True False True True
+New entity id: 428
+882: INSERT_SPRITE
+Insert sprite:  2 40 [1225, 2423, -2] 0 False False False True True False
+New entity id: 429
+883: SET_BEHAVIOR_STATE
+Entity id: 220 Behavior state: 2
+884: ADD_ENTITY_DEPENDANT
+add to entity: 347, dependant: 377
+885: INSERT_SPRITE
+Insert sprite:  2 35 [1261, 2003, 0] 0 False True True False False False
+New entity id: 430
+886: INSERT_SPRITE
+Insert sprite:  2 35 [536, 1351, 0] 0 True True True True False True
+New entity id: 431
+887: FLIP_ANIMATION
+Entity id: 300 flip animation
+888: INSERT_SPRITE
+Insert sprite:  1 32 [86, 1082, 0] 0 False True True False False False
+New entity id: 432
+889: INSERT_SPRITE
+Insert sprite:  2 35 [1357, 2449, 0] 0 True False False False True True
+New entity id: 433
+890: MOVE_SPRITE
+Entity id: 360 Move: [154, 510, -67]
+891: FLIP_ANIMATION
+Entity id: 236 flip animation
+892: INSERT_SPRITE
+Insert sprite:  1 1 [959, 354, 0] 0 False True True True False False
+New entity id: 434
+893: PAN_SPRITE
+Entity id: 306 Pan: [11, 0, 0]
+894: PAN_SPRITE
+Entity id: 150 Pan: [0, -24, 0]
+895: INSERT_SPRITE
+Insert sprite:  1 35 [1084, 2202, 0] 0 False False False False True True
+New entity id: 435
+896: INSERT_SPRITE
+Insert sprite:  1 10 [1176, 1657, 0] 0 False True True False False True
+New entity id: 436
+897: PAN_SPRITE
+Entity id: 417 Pan: [0, -18, 0]
+898: INSERT_SPRITE
+Insert sprite:  2 35 [1337, 237, 0] 0 True False True False True True
+New entity id: 437
+899: MOVE_SPRITE
+Entity id: 368 Move: [1399, 2533, 36]
+900: MOVE_SPRITE
+Entity id: 306 Move: [1604, 788, 90]
+901: PAN_SPRITE
+Entity id: 335 Pan: [0, 0, 2]
+902: FLIP_ANIMATION
+Entity id: 389 flip animation
+903: SET_BEHAVIOR_STATE
+Entity id: 279 Behavior state: 2
+904: FLIP_ANIMATION
+Entity id: 318 flip animation
+905: INSERT_SPRITE
+Insert sprite:  1 10 [1399, 1485, 0] 0 True True False False False False
+New entity id: 438
+906: INSERT_SPRITE
+Insert sprite:  1 1 [1165, 1113, 0] 0 False True True True True True
+New entity id: 439
+907: REMOVE_ENTITY_DEPENDANT
+remove from entity: 290, dependant: 355
+908: INSERT_SPRITE
+Insert sprite:  2 35 [1334, 1669, 0] 0 False True True False True False
+New entity id: 440
+909: INSERT_SPRITE
+Insert sprite:  1 10 [1237, 1110, 0] 0 False True False True True True
+New entity id: 441
+910: PAN_SPRITE
+Entity id: 433 Pan: [20, 0, 0]
+911: PAN_SPRITE
+Entity id: 116 Pan: [0, 0, 2]
+912: PAN_SPRITE
+Entity id: 433 Pan: [0, 0, 1]
+913: PAN_SPRITE
+Entity id: 265 Pan: [0, -17, 0]
+914: PAN_SPRITE
+Entity id: 347 Pan: [0, 0, -2]
+915: FLIP_ANIMATION
+Entity id: 337 flip animation
+916: REMOVE_SPRITE
+Remove sprite:  336
+917: ACTIVATE_ENTITY_BEHAVIOR
+918: PAN_SPRITE
+Entity id: 214 Pan: [29, 14, 2]
+919: ADD_ENTITY_DEPENDANT
+add to entity: 147, dependant: 289
+920: PAN_SPRITE
+Entity id: 129 Pan: [-22, 0, 0]
+921: INSERT_SPRITE
+Insert sprite:  1 35 [1026, 1500, 0] 0 True True True True True False
+New entity id: 442
+922: MOVE_SPRITE
+Entity id: 356 Move: [1282, 2185, 67]
+923: FLIP_ANIMATION
+Entity id: 302 flip animation
+924: PAN_SPRITE
+Entity id: 322 Pan: [-26, 0, 0]
+925: SET_BEHAVIOR_STATE
+Entity id: 201 Behavior state: 2
+926: REMOVE_ENTITY_DEPENDANT
+remove from entity: 297, dependant: 356
+927: FLIP_ANIMATION
+Entity id: 310 flip animation
+928: INSERT_SPRITE
+Insert sprite:  1 35 [1525, 2030, 0] 0 False False False False True True
+New entity id: 443
+929: INSERT_SPRITE
+Insert sprite:  1 10 [1261, 2447, 0] 0 False True True True False True
+New entity id: 444
+930: MOVE_SPRITE
+Entity id: 389 Move: [387, 786, -52]
+931: INSERT_SPRITE
+Insert sprite:  1 10 [1188, 502, 0] 0 True False False True True False
+New entity id: 445
+932: DEACTIVATE_ENTITY_AI
+933: FLIP_ANIMATION
+Entity id: 349 flip animation
+934: INSERT_SPRITE
+Insert sprite:  1 32 [1403, 447, 0] 0 True False True True True True
+New entity id: 446
+935: ACTIVATE_ENTITY_PHYSICS
+936: INSERT_SPRITE
+Insert sprite:  2 40 [1029, 1490, 0] 0 False False False False True True
+New entity id: 447
+937: INSERT_SPRITE
+Insert sprite:  1 32 [11, 978, 57] 0 False True True False False False
+New entity id: 448
+938: PAN_CAMERA
+Pan camera:  2   [23, 29]
+939: PAN_SPRITE
+Entity id: 377 Pan: [0, 21, 0]
+940: REMOVE_SPRITE
+Remove sprite:  154
+941: INSERT_SPRITE
+Insert sprite:  1 35 [1124, 2351, 0] 0 True True True True True False
+New entity id: 449
+942: INSERT_SPRITE
+Insert sprite:  2 35 [1486, 2465, 0] 0 True True False True False True
+New entity id: 450
+943: FLIP_ANIMATION
+Entity id: 337 flip animation
+944: INSERT_SPRITE
+Insert sprite:  2 35 [1402, 1941, 0] 0 True True False False False False
+New entity id: 451
+945: REMOVE_ENTITY_DEPENDANT
+remove from entity: 320, dependant: 367
+946: SET_BEHAVIOR_STATE
+Entity id: 203 Behavior state: 3
+947: FLIP_ANIMATION
+Entity id: 442 flip animation
+948: INSERT_SPRITE
+Insert sprite:  1 35 [961, 1496, 0] 0 True True False False False False
+New entity id: 452
+949: INSERT_SPRITE
+Insert sprite:  2 40 [104, 519, 74] 0 True False True False True True
+New entity id: 453
+950: FLIP_ANIMATION
+Entity id: 361 flip animation
+951: PAN_SPRITE
+Entity id: 335 Pan: [0, 0, 0]
+952: REMOVE_SPRITE
+Remove sprite:  377
+953: MOVE_SPRITE
+Entity id: 443 Move: [186, 1102, 33]
+954: INSERT_SPRITE
+Insert sprite:  1 32 [609, 1140, 0] 0 True False False False False True
+New entity id: 454
+955: INSERT_SPRITE
+Insert sprite:  2 40 [129, 2167, 0] 0 True True True False True True
+New entity id: 455
+956: MOVE_SPRITE
+Entity id: 339 Move: [276, 2566, 17]
+957: PAN_SPRITE
+Entity id: 393 Pan: [0, -12, 0]
+958: SET_BEHAVIOR_STATE
+Entity id: 309 Behavior state: 3
+959: INSERT_SPRITE
+Insert sprite:  1 1 [413, 2484, 84] 0 True False False False True False
+New entity id: 456
+960: PAN_SPRITE
+Entity id: 406 Pan: [0, 0, -1]
+961: INSERT_SPRITE
+Insert sprite:  1 35 [407, 1010, 0] 0 False True False True False True
+New entity id: 457
+962: SET_SPRITE_INVISIBLE
+963: INSERT_SPRITE
+Insert sprite:  1 1 [95, 467, 0] 0 True False True False False False
+New entity id: 458
+964: SET_BEHAVIOR_STATE
+Entity id: 299 Behavior state: 1
+965: FLIP_ANIMATION
+Entity id: 142 flip animation
+966: MOVE_SPRITE
+Entity id: 138 Move: [987, 24, 13]
+967: ADD_ENTITY_DEPENDANT
+add to entity: 360, dependant: 411
+968: INSERT_SPRITE
+Insert sprite:  2 40 [402, 17, 0] 0 False True True False False False
+New entity id: 459
+969: INSERT_SPRITE
+Insert sprite:  2 35 [757, 510, 0] 0 False True True False False True
+New entity id: 460
+970: PAN_SPRITE
+Entity id: 362 Pan: [0, 0, 0]
+971: REMOVE_ENTITY_DEPENDANT
+remove from entity: 211, dependant: 105
+972: MOVE_SPRITE
+Entity id: 153 Move: [186, 568, -14]
+973: INSERT_SPRITE
+Insert sprite:  2 40 [232, 921, 0] 0 True False False False True True
+New entity id: 461
+974: SET_BEHAVIOR_STATE
+Entity id: 105 Behavior state: 3
+975: ADD_ENTITY_DEPENDANT
+add to entity: 138, dependant: 281
+976: PAN_SPRITE
+Entity id: 236 Pan: [0, -7, 0]
+977: INSERT_SPRITE
+Insert sprite:  2 35 [744, 1199, 0] 0 True False True True True False
+New entity id: 462
+978: SET_BEHAVIOR_STATE
+Entity id: 304 Behavior state: 1
+979: REMOVE_SPRITE
+Remove sprite:  230
+980: INSERT_SPRITE
+Insert sprite:  1 32 [1002, 1425, 0] 0 False False False False False False
+New entity id: 463
+981: ADD_ENTITY_DEPENDANT
+add to entity: 219, dependant: 169
+982: FLIP_ANIMATION
+Entity id: 340 flip animation
+983: INSERT_SPRITE
+Insert sprite:  2 40 [1406, 689, 0] 0 True False True False True False
+New entity id: 464
+984: INSERT_SPRITE
+Insert sprite:  2 40 [25, 1011, -8] 0 False False True False False True
+New entity id: 465
+985: FLIP_ANIMATION
+Entity id: 273 flip animation
+986: PAN_SPRITE
+Entity id: 462 Pan: [-5, 6, -1]
+987: INSERT_SPRITE
+Insert sprite:  1 10 [1531, 1304, 0] 0 True True False True True False
+New entity id: 466
+988: FLIP_ANIMATION
+Entity id: 180 flip animation
+989: ADD_ENTITY_DEPENDANT
+add to entity: 123, dependant: 432
+990: FLIP_ANIMATION
+Entity id: 394 flip animation
+991: INSERT_SPRITE
+Insert sprite:  2 35 [1487, 2387, 0] 0 True False True False True True
+New entity id: 467
+992: ADD_ENTITY_DEPENDANT
+add to entity: 105, dependant: 259
+993: DETACH_CAMERA
+994: MOVE_SPRITE
+Entity id: 255 Move: [1286, 1197, -33]
+995: REMOVE_SPRITE
+Remove sprite:  286
+996: PAN_SPRITE
+Entity id: 360 Pan: [0, 0, 0]
+997: MOVE_SPRITE
+Entity id: 316 Move: [19, 907, 47]
+998: REMOVE_ENTITY_ALWAYS_ACTIVE
+999: INSERT_SPRITE
+Insert sprite:  2 40 [450, 878, 0] 0 False False True True True False
+New entity id: 468
+1000: REMOVE_ENTITY_DEPENDANT
+remove from entity: 327, dependant: 198
+At loop break point:  1000
+1001: SET_BEHAVIOR_STATE
+Entity id: 136 Behavior state: 3
+1002: LOAD_SCRIPT
+1003: PAN_SPRITE
+Entity id: 237 Pan: [-8, 16, -1]
+1004: INSERT_SPRITE
+Insert sprite:  1 35 [1530, 563, 0] 0 False True False True True True
+New entity id: 469
+1005: REMOVE_ENTITY_DEPENDANT
+remove from entity: 215, dependant: 294
+1006: INSERT_SPRITE
+Insert sprite:  1 10 [358, 462, 0] 0 True True True True False True
+New entity id: 470
+1007: PAN_SPRITE
+Entity id: 435 Pan: [9, -27, 2]
+1008: MOVE_SPRITE
+Entity id: 169 Move: [586, 603, -9]
+1009: ADD_ENTITY_DEPENDANT
+add to entity: 400, dependant: 197
+1010: PAN_SPRITE
+Entity id: 419 Pan: [0, 0, 0]
+1011: ACTIVATE_ENTITY_PHYSICS
+1012: MOVE_CAMERA
+Move camera:  1   [0, 1475]
+1013: INSERT_SPRITE
+Insert sprite:  2 35 [958, 434, 0] 0 False False True False False False
+New entity id: 471
+1014: SET_BEHAVIOR_STATE
+Entity id: 421 Behavior state: 1
+1015: MOVE_SPRITE
+Entity id: 173 Move: [1170, 561, -54]
+1016: SET_BEHAVIOR_STATE
+Entity id: 424 Behavior state: 2
+1017: PAN_SPRITE
+Entity id: 301 Pan: [0, 0, 0]
+1018: INSERT_SPRITE
+Insert sprite:  2 35 [762, 2222, 0] 0 True False True False True True
+New entity id: 472
+1019: SET_SPRITE_VISIBLE
+1020: SET_BEHAVIOR_STATE
+Entity id: 178 Behavior state: 1
+1021: ADD_ENTITY_DEPENDANT
+add to entity: 180, dependant: 431
+1022: REMOVE_SPRITE
+Remove sprite:  214
+1023: INSERT_SPRITE
+Insert sprite:  2 40 [1508, 1643, 0] 0 False False True True True False
+New entity id: 473
+1024: INSERT_SPRITE
+Insert sprite:  1 10 [190, 1299, 0] 0 True True False True True False
+New entity id: 474
+1025: FLIP_ANIMATION
+Entity id: 293 flip animation
+1026: INSERT_SPRITE
+Insert sprite:  2 35 [1586, 2418, 70] 0 False True False True True True
+New entity id: 475
+1027: ADD_ENTITY_DEPENDANT
+add to entity: 368, dependant: 207
+1028: UPDATE
+*** Update 4 ***
+Running test: _testEntityIdVerification_
+Running test: _testVerifyActiveEntities_
+Running test: _testSceneLayerReferences_
+Running test: _testEntityByLayerId_
+Running test: _testCurrentLayerIds_
+Running test: _testOffScreenActives_
+Running test: _testEntityInGridInDict_
+Running test: _testCloneParentRelationship_
+Running test: _testMasterCellsActiveState_
+Running test: _testCellBordersSizes_
+Running test: _testAllEntitiesInGridUnique_
+Running test: _testCellMetaDataMatchesMaster_
+Running test: _testMasterCellsInactiveState_
+Running test: _testCellsAreSorted_
+Running test: _testLinkedListsAreConsistent_
+Running test: _testSpritesStayInBorders_
+Running test: _testInvisibleSpritesLists_
+Running test: _testSceneCellReferences_
+Running test: _testSpriteRenderCoordinates_
+Running test: _testSpriteBehaviorState_
+Running test: _testOffscreenActiveNetwork_
+test_Scene_node - Sprite in offscreen actives, no part in active cell, id: 320 (dependant 361)
+
+
+Test has failed
+
+Exception at loop 1028
+Total updates: 4
+
+Choice and args:
+1
+[None]
+Total loops 1028
+Total updates: 4
+scene_layer_grid test end
+
+Process finished with exit code 0

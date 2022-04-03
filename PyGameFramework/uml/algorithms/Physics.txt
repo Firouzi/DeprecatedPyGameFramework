@@ -1,0 +1,25 @@
+Applying Forces:
+  BehaviorComponentSystem.update(): Behavior adds forces (movement, jumping, etc)
+  PhysicscComponentSystem.update()
+    Force Generators Add Forces (gravity, wind, etc)
+    Particle.integrate()
+      Update positon based on velocity
+      Update velocity from acceleration
+      (impose drag or other effects)
+    contacts = CollisionDetector.detectCollison() - Contacts Generated
+    contacts += ContactGenerators.generateContacts - more Contacts Generated
+    foreach contact:
+        if event
+	    #handleEvent
+	else
+            PhysicsComponentSystem.sendContacts(particle, particle/environment/barrier)
+	    ContactResolver.resolveContact(contact)
+
+
+ContactResolver
+1.  applies impulses to particles to simulate bouncing apart (impulse is an insantaneous change in velocity)
+2.  resolves interpenetration
+3.  (would resolve resting contacts, if needed for the engine - currently not)
+
+For Enviornment:
+change accel (add drag) or changes the position (moving surface)

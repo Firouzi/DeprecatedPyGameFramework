@@ -1,0 +1,69 @@
+profile_500_16ms_20191030.txt
+run with IS_DEBUGGER_RUN = True and set elapsed_loop_time to 16ms
+used an addhammer(500) = 503 entity components total (1 camera, 1 PC, 1 NPC, and an addhammer(500)
+ran for ~169s
+
+Misc
+{method 'get' of 'dict' objects}
+calls: 22319103
+cumtime: 17.289 (This comes out to ~7ms per render, ouch!)
+
+RENDERING
+component_entity_sprite.py:317(update)
+calls: 2468 (called once before we render)
+cumtime: 4.834
+percall: .002ms
+
+render.py:160(render)
+calls: 2468
+cumtime: 79.619
+percall: 0.032
+	render.py:45(renderImages)
+	calls: 7404 (3 times per render, 2xAtlas and 1xMixed)
+	cumtime: 20.002
+	percall: 0.003 (9ms per render)
+
+	render.py:91(renderPanorama)
+	calls: 4936 (2 per render) 
+	cumtime: 4.731
+	percall .001 (2ms per render)
+
+	Total time to render images to screen per render is 11ms, screen only about 30% tiled
+
+scene_layer.py:90(updateRenderableCoordinates)
+calls: 12340 (5 times per render, 2 panorama layers, 2 atlas, 1 mixed)
+cumtime: 53.485
+percall: .004 (~20ms total per render call)
+	scene_layer.py:100(_calculateCoordinates)
+	calls: 12340 (called for every updateRenderableCoordinates)
+	cumtime: 35.315
+	percall: .003 (15ms per render)
+
+	scene_layer.py:110(_sort)
+	calls: 2468 (only the mixed layer gets sorted)
+	cumtime: 18.155
+	percall: .007
+	
+		component_entity_sprite.py:52(calculateCoordinates)
+		calls: 2477872 (502 entities * 2 sprites per entityi * 2468 renders)
+		cumtime: 15.390 (6.2ms per render) 
+
+UPDATE LOOP
+component_entity_behavior.py:313(update)
+calls: 7404 (3 times per render)
+cumtime 69.572
+percall: .009 (27ms per render)
+	calls on each component:
+	component_entity_behavior.py:156(update)
+	calls: 3723709 (503 components called on each loop)
+		calls on each subcomponent:
+		component_entity_behavior.py:50(update)
+		calls: 7440015 (subcomponents per component except for the camera)
+
+component_entity_physics.py:521(update)
+calls: 7404 (3 times per render)
+cumtime: 12.042
+percall: .002 (6ms per render)  
+
+		
+	

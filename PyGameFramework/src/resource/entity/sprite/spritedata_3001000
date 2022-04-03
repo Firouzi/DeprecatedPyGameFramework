@@ -1,0 +1,18 @@
+{"spritedataslists" :
+	[
+		{"spritedatas" : 
+			[
+				{"behaviorstates" : [1], "spriteid" : 4000000},
+				{"behaviorstates" : [2], "spriteid" : 4000001},
+				{"behaviorstates" : [3,4], "spriteid" : 4000002}
+			]
+		},
+		{"spritedatas" : 
+			[
+				{"behaviorstates" : [5,6], "spriteid" : 4000003},
+				{"behaviorstates" : [7], "spriteid" : 4000004}
+			]
+		}
+	],
+	"each behaviorstates entry lists the behavior state ids, and then the sprite which covers it" : true
+}

@@ -1,0 +1,7 @@
+{"behaviorfsms" : 
+	[
+		{"behaviorstateids" : [15],
+		 "initialstate" : 15}
+	],
+	"This is the camera" : true
+}

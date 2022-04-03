@@ -1,0 +1,9 @@
+{"layerType": "sprite", 
+"id": 3, 
+"name": "test level 1 sprite", 
+"isNeedsSorting": true, 
+"isAlpha": true, 
+"size_tiles": [0,0], 
+"tile_size": 0, 
+"animatedTiles": [], 
+"tilemap_id" : -1}

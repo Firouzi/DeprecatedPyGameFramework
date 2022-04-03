@@ -1,0 +1,8 @@
+[
+  "set_random_entity", "flip_animation",
+  "set_random_entity", "random_behavior_state",
+  "set_random_entity", "flip_animation", "random_behavior_state",
+  "set_random_entity", "flip_animation",
+  "set_random_entity", "random_behavior_state",
+  "set_random_entity", "flip_animation", "random_behavior_state"
+]

@@ -1,0 +1,10 @@
+Note: We don't need to detect if 2 particles that aren't moving collided, so check for both having zero velocity first
+
+Use the course_grained bounding volume, followed by the fine grain volumes.
+ob1 vs obj2
+(Course vs course)
+(Course vs fine)
+(fine vs fine)
+
+Only a collision if we have fine vs fine collision
+Note that if an entity has no fine volumes, then we can use just the course volume for that entity.

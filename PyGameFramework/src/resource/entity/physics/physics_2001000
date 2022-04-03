@@ -1,0 +1,15 @@
+{"particledatas" : 
+	[
+		{"inversemass" : 1.2, "damping" : 2.3, "offsets" : []},
+		{"inversemass" : 2.5, "damping" : 1.1,
+			"offsets":[0,-50,0,-50,0,-50,0,-50,0,-50,0,-50,0,-50,0,-50,0]}
+	],
+"offsetskey": "We use this to determine position of child from parent in each direction",
+"offsetskeycont":"8 x,y pairs in order, U, UR, R, RD, D, DL, L, LU",
+"for 4 direction":"U, R, D, L, and we can tell by getting length of this array",
+"We will save the last index in the list for the height, which is always the same" : true,
+"N1":"The first particle is the parent particle... ALWAYS",
+"N2":"1 parent particle only, rest are child particles",
+"N3":"Right now we assume parent is the closest to ground, and rendered first",
+"N4":"Would his work for rotating a sprite?"
+}

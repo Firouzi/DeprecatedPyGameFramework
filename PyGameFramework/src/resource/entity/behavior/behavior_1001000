@@ -1,0 +1,9 @@
+{"behaviorfsms" : 
+	[
+		{"behaviorstateids" : [1,2,3,4],
+		 "initialstate" : 1}, 
+		{"behaviorstateids" : [5,6,7],
+		 "initialstate" : 5}
+	],
+	"for each subcomponent index, the ordered list of behavior state ids" : true
+}

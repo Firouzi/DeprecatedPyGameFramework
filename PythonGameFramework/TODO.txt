@@ -1,0 +1,107 @@
+PROJECT CharmQuark 
+Can re-write render using pyopengl? - seems prudent.  Can learn open gl separately (in C++?) then work on porting to the game
+	pygame can still be used for input processing etc
+
+Graphics:
+	need to inteligently laod assets: main char stuff loaded all the time, but load assets for levels particular 	to that area
+	thread(s) to load assets?:  Seperate thread that runs in background loading assets as needed (approaching 	the start of a new area, new character loaded, new effects, etc)
+
+update changed actors algorithm to re-render them if on a changed tile
+Sprites for actors
+Animate actors
+	can probably put the AnimationState, and list of SpriteAnimations together under a wrapper class
+		"SpriteAnimationsSuite"?
+			SpriteAnimations[]			
+			CurrentAnimation*
+			AnimationState
+
+Instead of re-render entire screen on a camera move, can we shift the entire screen and re-render the shifted off part?
+
+minor optimizations: 
+lists to tuples
+
+minor cleanup:
+move related functions next to each other (renderQ functs)
+more calculations packaged as functions (eg screenBoundryLeft)
+cleanup render all panorama with the CONSTANTS and methodCalls used in renderChanged
+make some of the list values class fields for readability
+	eg fg.scrolling[0] = fg.scolling_xmultiplier
+Uml could use an update
+
+fullscreen mode?
+	get screen res, keep same ratio and create black border around rest?  Then only update to the actual playing 	area
+	should also add ability to exit with escape key
+	
+features:
+Sprites for actors
+Animate actors
+Weather or other visual ambient affects
+Special effects (eg: add a spell cast animation, or any special animation call)
+HUD
+Text
+Menu
+
+debug:
+right click a tile and be able to change its tilemap index?
+
+general todo
+Documentation Documentation Documentation
+all size variables named including pixel or tile ("<var>_px" or "<var>_tile")
+need to seperate out some of the parameters and name them, rather then lists and sublists (eg scroll speed)
+
+buttomap
+	the button map should reference the actual keys, which get mapped to specific behaviors
+
+BUG:
+default action trying to access depcrecated levelLayout Object
+
+should gameCamera just be in renderer?
+	cleanup camera references
+
+SOFTWARE DESIGN
+create a base animated class - things like fps,framesPerImage, update animated index, etc are common
+use packages to organize modules?
+Write down algorithm for rendering scenery somewhere!
+In Panorama render: Var Names - need better names for each variable.  Can some of the calculations be optimized?  
+Should the camera tile and offset be class fields for Renderer? 
+sound logging/error checking is overboard, proably don't need now that things are working well.  
+  (Assume the API is correctly used by the programmer, and trust to the unit tests?) 
+
+RENDER
+Tile animations for each tile instead of as a tilemap? - Might not be needed
+
+TESTING:
+Render changed may have bugs not uncovered (like the overshoot/negative bug).  investigate
+Put print statements in loops to ensure not rendering more than necessary panoramas or tiles
+Experiment with smaller screen size, number of layers, etc. for speed/performance. 
+Need to eventually figure out better unit testing
+
+OPTIMIZATION
+use c types with numpy to create surfaces to blit?
+PRAMS all integers not strings
+can have pygame only get() relevant (chosen) events from the queue
+For display.update, ifpassing recs, will not update entire screen (eg for render changed?) - seems to work fine
+For the EventHandler dictionary, use a tuple and index into it by int (not a dict with string) 
+
+ACTORS
+Render an actor if onscreen only
+Render all actors should include the actors and the scenery images to render.  These must be sorted on Y position to get proper layering when rendering
+	will need to think of a good way to sort these optimally, or will impact performance
+	
+
+TOOLS
+GIMP - learn mainly for transparency effect, then try to put in with transparency to pygame
+
+HUD
+Need a hud
+Menus
+Text Boxes (pygame tutorial has something on this)
+
+EVENTS
+on a load level event, need to flush the event queue to prefent incorrect events from running
+create an event type EventList which adds a list of events to the queue
+create an event type flush queue which removes any remaining events from the queue (fix the menu bug when transitioning)
+how to change tiles based on events (e.g. pull a switch to open a door)
+how to have events spaced out over frames, or timed?
+-NPC's and objects which can be interacted with
+-how to repeate an ambiant track?

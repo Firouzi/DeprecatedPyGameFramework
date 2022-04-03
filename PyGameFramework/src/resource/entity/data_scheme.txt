@@ -1,0 +1,35 @@
+entity collections start from 0 and go up
+Use the ID's as such
+[0,99] - Camera Entity
+[100,999] - Various engine use?  
+[1000,9999] - Player Control Entity
+[10,000,99,999] - NPC Control Entity
+[100,000, 199,999] - Particle Effect Entity
+
+
+behavior_component will start with 1000000
+physics_component  will start with 2000000
+sprite_component will start with 3000000
+sprite_id will start with 4000000
+etc...
+
+scene collections can start from 0 and go up
+panorama
+tilemap
+etc...
+
+images:
+tilemap 1000000
+sprite 2000000
+panorama 300000
+
+
+
+
+
+
+
+
+
+
+

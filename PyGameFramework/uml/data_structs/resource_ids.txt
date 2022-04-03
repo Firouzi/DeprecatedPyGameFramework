@@ -1,0 +1,67 @@
+(more to come?  Event id's?  etc)
+
+DISK
+Resource IDs:
+There will be 2 types of resource ID's: 
+e_resource_id (for entity collections and components)
+	sprite_id - for spriteData objects
+s_resource_id (for scene collections and components)
+
+A resource_id can either be used to load a collection or an individual resource.  Each resource_id must be UNIQUE, across entities, scenes, collections and individual resources.
+
+Collections
+If a resource ID is for a collection, the data will just be pairs:
+resource types : resource Id
+
+Each resource ID in the collection will reference a a single resource to be loaded into a component system
+
+Image IDs
+Each image will have a unique image id.  This is for atlas images, sprites, and panoramas.
+
+Sound IDs
+
+RAM
+entity_ids: A unique ID for every loaded entity
+sprite_id: A unique ID for a loaded sprite - can be shared across multiple entities
+
+SpriteImageManager
+sprite_images: Will be stored in a dict with the key being a LIST of ints
+each int is  an image_id.  Because we can generate a new image by applying multiple images on top of each other, we need to store the newely generated sprite by it's list of constituent image_ids.
+EXAMPLE
+Our sprite_image dict = {} #(it starts empty)
+Image of Hero: image_id = 27
+Image of the Hero's hat: image_id 52
+Image of the Hero's Shirt: image_id 12
+Image of the Hero's Boots: image id 455
+
+We would load each individual image:
+After loading the Hero image
+our sprite_image dict = {[27] : hero_image.bmp} #(The "hero_image.bmp" is just placeholder text - this is just going to be a ptr to raw image data and we don't need to care about what it exactly looks like
+After loading all of the accessories, our sprite_image dict = 
+{[27] : hero_image.bmp, 
+[52] : hat.bmp, 
+[12] : shirt.bmp, 
+[455] : boots.bmp}
+
+After creating the new image by layering the accessories on top of the Hero image, we would have:
+{[27] : hero_image.bmp, 
+[52] : hat.bmp, 
+[12] : shirt.bmp, 
+[455] : boots.bmp, 
+[27, 52, 12, 455] : combined_image.bmp } 
+
+If at this point we need to remove the hero's shirt, we would need to create a new sprite, because we don't yet have a sprite with the combination of [27, 52, 455], so we would have:
+{[27] : hero_image.bmp, 
+[52] : hat.bmp, 
+[12] : shirt.bmp, 
+[455] : boots.bmp, 
+[27, 52, 12, 455] : combined_image.bmp,
+[27, 52, 455] : shirtless.bmp} 
+
+If the hero put his shirt back on, we wouldn't have to reload or recreate any new sprites, as we already have that combination stored (provided we look for it with the items listed in the same order) and we can just return that image
+
+SpriteData
+When we load a sprite, we will create a unique sprite_id.  Multiple sprite_instances can share the same SpriteData - multiple SpriteDatas can share the same sprite_images.  
+
+
+

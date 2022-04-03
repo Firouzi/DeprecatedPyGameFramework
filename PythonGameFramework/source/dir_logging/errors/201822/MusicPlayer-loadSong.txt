@@ -1,0 +1,1 @@
+2018-02-02 00:00:06.797715 path [C:\Users\Robert\Repos\PythonGameFramework\source\dir_sound\dir_music\saga7-Wind.mp3] not found

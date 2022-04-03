@@ -1,0 +1,8 @@
+{"layerType": "tilemap", 
+"id": 2, 
+"tilemap_id" : 0,
+"name": "test level 1 lower tiles", 
+"isNeedsSorting": false, 
+"isAlpha": true, 
+"size_tiles": [150, 150], 
+"tile_size": 48} 

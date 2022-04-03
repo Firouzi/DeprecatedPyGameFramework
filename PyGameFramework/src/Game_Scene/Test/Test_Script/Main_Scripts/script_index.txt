@@ -1,0 +1,32 @@
+Main Scripts (MS)
+1002: Reset Engine, Load Sprites, SS6
+
+3000: Load Sprites, update, change repeate loops to 5, then call 300x (change to desired 3001-3009)
+300x: does a set of SS, then update, then reloads self (infinite)
+
+3001: SS10 (move sprites)
+3002: SS10 (move sprites), SS11 (update behavior/frame)
+3003: SS10 (move sprites), SS11 (update behavior/frame), SS12 (change sprite states)
+3004: SS10 (move sprites), SS11 (update behavior/frame), SS12 (change sprite states) SS13(add/remove dependant)
+3005: move camera
+3006: move camera, SS10 (move sprites),
+3007: move camera, SS10 (move sprites), SS11 (update behavior/frame)
+3008: move camera, SS10 (move sprites), SS11 (update behavior/frame), SS12 (change sprite states)
+3009: move camera, SS10 (move sprites), SS11 (update behavior/frame), SS12 (change sprite states) SS13(add/remove dependant)
+
+9000: randomize world params, load 500 sprites, then run subscripts 10-13 and update 210 times, then reload 9000
+9001: chooses random scene manager actions, 20 updates per engine regresh, intermingles camera moves
+SubScripts (SS):
+0: Insert Sprite
+5: Change all EM status, does not activate/deactivate
+6: Random EM status changes, 10 per each type, then update
+10: move sprites
+11: update behavior/frame
+12: change sprite states
+13: add/remove dependants
+14: sprite add remove
+15: random scene action
+
+Future:
+    insert sprites into random positions
+    way to call 3009 (does all actions) for several loops, and then reset the game engine and do again

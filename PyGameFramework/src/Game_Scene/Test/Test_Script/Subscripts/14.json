@@ -1,0 +1,4 @@
+[
+  "set_random_entity","sprite_remove", "set_random_entity", "sprite_remove", "set_random_entity", "sprite_remove",
+  "sprite_insert", "sprite_insert", "sprite_insert"
+]

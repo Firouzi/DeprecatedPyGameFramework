@@ -1,0 +1,40 @@
+C:\Users\Robert\AppData\Local\Programs\Python\Python36-32\python.exe C:/Users/Robert/Repos/GameDev/PyGameFramework/src/Game_Scene/Test/Test_System/Game_engine_testing_system.py
+
+*** Update 1 ***
+
+
+*** Update 2 ***
+
+
+*** Update 3 ***
+
+New entity id: 320
+509: ACTIVATE_ENTITY_PHYSICS
+510: SET_BEHAVIOR_STATE
+New entity id: 361
+add to entity: 361, dependant: 367
+add to entity: 367, dependant: 320
+remove from entity: 320, dependant: 367
+946: SET_BEHAVIOR_STATE
+Entity id: 361 flip animation
+1012: MOVE_CAMERA
+Move camera:  1   [0, 1475]
+
+*** Update 4 ***
+
+test_Scene_node - Sprite in offscreen actives, no part in active cell, id: 320 (dependant 361)
+
+
+Test has failed
+
+Exception at loop 1028
+Total updates: 4
+
+Choice and args:
+1
+[None]
+Total loops 1028
+Total updates: 4
+scene_layer_grid test end
+
+Process finished with exit code 0
