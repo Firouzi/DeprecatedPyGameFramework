@@ -1,0 +1,43 @@
+Bitbucket un firouzi (login with google account)
+https://bitbucket.org/dashboard/overview
+(Don't need this but required to have it for Sourcetree)
+
+GITHUB!
+
+https://github.com/
+https://github.com/Firouzi
+un: hrfirouzi@gmail.com
+
+Sequence for starting a new project:
+1. PROJECT (create the project eg Unity project)
+2. REPO (create the local repo w/ SourceTree)
+3. IGNORE (setup the ignore file)
+4. REMOTE (setup the remote repository on GitHub)
+5. PUSH (Push local Repo to Remote repo)
+
+
+1. Project:
+Just create your new project
+
+2. Repo:
+Source Tree -> Local -> + Create
+Path is the path to the folder which will be the base of the repo
+
+3. Ignore
+Can get the 'official' gitIgnore from:
+https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+4. Remote
+Create a new repo on Github
+do NOT add a Readme, gitignore (already done) or license
+	This will cause a conflict when we try to push!
+Copy the URL link (prob HTTPS)
+On Source Tree, goto your bookmarked project -> "Repository" Menu -> Add Remote
+
+5. Push
+Click Push, choose the branch and the remote repo (can name it origin, we named it "GitHub")
+
+You may need to solve a credentials quirk in source tree:
+https://community.atlassian.com/t5/Sourcetree-questions/I-always-get-a-popup-credential-helper-selector-asking-me-to/qaq-p/1465880
+
+
